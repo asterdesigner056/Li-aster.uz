@@ -1,0 +1,84 @@
+# =====================================================================
+#  Li Auto · Aster Li — настройки безопасности Apache
+#  (для nginx см. server/nginx.conf.example)
+# =====================================================================
+
+Options -Indexes -MultiViews
+ServerSignature Off
+DirectoryIndex index.html
+
+# --- HTTPS и без www ---
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+# --- send.php: только POST, только urlencoded (multipart/загрузки файлов — путь атаки PHP2Shell) ---
+RewriteCond %{REQUEST_METHOD} !^POST$ [OR]
+RewriteCond %{HTTP:Content-Type} !^application/x-www-form-urlencoded [NC]
+RewriteRule (^|/)send\.php$ - [F,L]
+
+# --- скрытые файлы (.git, .env, .user.ini, .htaccess…) ---
+RedirectMatch 404 /\.(?!well-known/)
+
+# --- запрет служебных файлов и любого PHP, кроме send.php ---
+<FilesMatch "\.(php|phtml|phar|php[0-9]|phps|inc|ini|log|csv|json|md|txt|bak|old|orig|save|swp|sql|zip|tar|gz|7z|rar|sh|env|lock|ya?ml|dist)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^(send\.php|robots\.txt)$">
+  Require all granted
+</FilesMatch>
+<Files "send.php">
+  LimitRequestBody 8192
+</Files>
+RedirectMatch 404 (^|/)(aster-li-private|leads[^/]*)(/|$)
+
+# --- PHP как модуль Apache (mod_php): те же ограничения, что в .user.ini ---
+<IfModule php_module>
+  php_flag session.upload_progress.enabled off
+  php_flag display_errors off
+  php_value post_max_size 16K
+  php_value upload_max_filesize 1K
+  php_value max_input_vars 40
+</IfModule>
+<IfModule mod_php7.c>
+  php_flag session.upload_progress.enabled off
+  php_flag display_errors off
+  php_value post_max_size 16K
+</IfModule>
+
+# --- заголовки безопасности ---
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  # CSP подставляется при сборке (build.js) — только свои файлы + разрешённые сервисы
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src https://yandex.uz https://yandex.ru https://yandex.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+  Header always unset X-Powered-By
+  Header unset X-Powered-By
+  <FilesMatch "\.pdf$">
+    Header set Content-Disposition "attachment"
+  </FilesMatch>
+</IfModule>
+
+# --- сжатие ---
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml
+</IfModule>
+
+# --- кэш статики (CSS/JS сбрасываются через ?v= при каждой сборке) ---
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

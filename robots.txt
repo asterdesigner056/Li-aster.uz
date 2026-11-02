@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /send.php
+Disallow: /leads/
+
+Sitemap: https://li-aster.uz/sitemap.xml
+Host: https://li-aster.uz
