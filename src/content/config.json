@@ -36,6 +36,7 @@
     "offer": "assets/img/home/offer.webp"
   },
   "analytics": {
+    "gtm": "GTM-M3G8XRNW",
     "ga4": "",
     "yandexMetrika": "",
     "metaPixel": "",

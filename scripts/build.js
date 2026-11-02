@@ -53,7 +53,7 @@ function build() {
   const leadMode = (cfg.lead && cfg.lead.mode) === 'direct' ? 'direct' : 'php';
   const fontsLocal = fs.existsSync(path.join(ASSETS, 'fonts', 'fonts.css'));
   const analytics = cfg.analytics || {};
-  const { head: analyticsHead, body: analyticsBody } = analyticsSnippets(analytics);
+  const { gtm: gtmHead, head: analyticsHead, body: analyticsBody } = analyticsSnippets(analytics);
 
   images.reset(site);
   const csp = createCsp({ analytics, fontsLocal, directEndpoint: leadMode === 'direct' && cfg.lead.endpoint, remoteImages: images.remoteOrigins });
@@ -154,11 +154,11 @@ function build() {
           : '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">',
         leadTitle: t.form.title,
         leadSub: t.form.sub,
-        analyticsHead,
+        gtmHead, analyticsHead,
         analyticsBody,
         // данные для assets/js/main.js — JSON внутри <script type="application/json" id="site-data">
         siteJson: JSON.stringify({
-          lang, endpoint: base + 'send.php', ym: analytics.yandexMetrika || '', lead: leadMode === 'direct'
+          lang, endpoint: base + 'send.php', ym: analytics.yandexMetrika || '', gtm: !!analytics.gtm, lead: leadMode === 'direct'
             ? { mode: 'direct', endpoint: cfg.lead.endpoint, marka: cfg.lead.marka, website: cfg.lead.website, city: cfg.lead.city }
             : { mode: 'php' },
           dealers: dealers.map((d) => ({ id: d.id, name: d.dname, lat: d.lat, lon: d.lon })),

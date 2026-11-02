@@ -23,14 +23,15 @@ function createCsp({ analytics = {}, fontsLocal, directEndpoint, remoteImages = 
   /** итоговая строка политики */
   function policy() {
     const a = analytics;
+    const g = a.ga4 || a.gtm; // GTM загружает GA4 и другие теги Google
     return [
       "default-src 'self'",
-      ["script-src 'self'", ...hashes, a.ga4 && 'https://www.googletagmanager.com', a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', a.metaPixel && 'https://connect.facebook.net'].filter(Boolean).join(' '),
+      ["script-src 'self'", ...hashes, g && 'https://www.googletagmanager.com https://*.googletagmanager.com', a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', a.metaPixel && 'https://connect.facebook.net'].filter(Boolean).join(' '),
       `style-src 'self' 'unsafe-inline'${fontsLocal ? '' : ' https://fonts.googleapis.com'}`,
       `font-src 'self'${fontsLocal ? '' : ' https://fonts.gstatic.com'}`,
-      ["img-src 'self' data:", ...origins(remoteImages()), a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', a.ga4 && 'https://*.google-analytics.com https://www.googletagmanager.com', a.metaPixel && 'https://www.facebook.com'].filter(Boolean).join(' '),
-      ["connect-src 'self'", directEndpoint && origins([directEndpoint])[0], a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', a.ga4 && 'https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com', a.metaPixel && 'https://www.facebook.com'].filter(Boolean).join(' '),
-      'frame-src https://yandex.uz https://yandex.ru https://yandex.com',
+      ["img-src 'self' data:", ...origins(remoteImages()), a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', g && 'https://*.google-analytics.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.co.uz', a.metaPixel && 'https://www.facebook.com'].filter(Boolean).join(' '),
+      ["connect-src 'self'", directEndpoint && origins([directEndpoint])[0], a.yandexMetrika && 'https://mc.yandex.ru https://mc.yandex.com', g && 'https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.co.uz', a.metaPixel && 'https://www.facebook.com'].filter(Boolean).join(' '),
+      ['frame-src https://yandex.uz https://yandex.ru https://yandex.com', g && 'https://www.googletagmanager.com'].filter(Boolean).join(' '),
       "frame-ancestors 'none'", "object-src 'none'", "base-uri 'self'", "form-action 'self'", 'upgrade-insecure-requests',
     ].join('; ');
   }

@@ -107,10 +107,13 @@ src/assets/img/
 
 | Поле | Пример |
 |---|---|
+| `gtm` | `GTM-M3G8XRNW` — Google Tag Manager, ставится сразу после `<head>` на всех страницах |
 | `yandexMetrika` | `98765432` |
 | `ga4` | `G-XXXXXXX` |
 | `metaPixel` | `123456789012345` |
 | `googleVerification`, `yandexVerification` | коды подтверждения из Search Console / Вебмастера |
+
+С GTM события сайта уходят в `dataLayer` как `{ event: 'имя_события', ... }` — в GTM ловите их триггером «Специальное событие». Свои HTML-теги в GTM ограничены политикой безопасности (CSP): внешние скрипты новых сервисов нужно разрешить в `scripts/lib/csp.js`.
 
 Цели (события) уже размечены: `lead_submit` (заявка отправлена), `book_open`, `cta_more_<id>`, `cta_book_<id>`,
 `cta_header`, `cta_hero_models`, `cta_hero_price`, `cta_model_hero`, `cta_offer`, `cta_mbar`, `price_download_<id>`,

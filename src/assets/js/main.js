@@ -15,7 +15,8 @@
 
   /* ---------- аналитика: одно место для всех целей ---------- */
   const track = (name, params = {}) => {
-    try { window.gtag && gtag('event', name, params); } catch (e) {}
+    // с GTM события уходят в dataLayer (триггер «Специальное событие» = имя события), без GTM — напрямую в GA4
+    try { if (S.gtm) (window.dataLayer = window.dataLayer || []).push({ event: name, ...params }); else if (window.gtag) gtag('event', name, params); } catch (e) {}
     try { window.ym && S.ym && ym(S.ym, 'reachGoal', name, params); } catch (e) {}
     try { window.fbq && name === 'lead_submit' && fbq('track', 'Lead', params); } catch (e) {}
   };
