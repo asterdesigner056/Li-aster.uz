@@ -1,0 +1,275 @@
+{
+  "id": "l6-ultra",
+  "slug": "li-l6-ultra",
+  "name": "Li L6 Ultra",
+  "class": {
+    "ru": "5 мест · семейный SUV",
+    "uz": "5 o‘rin · oilaviy SUV"
+  },
+  "tagline": {
+    "ru": "Точка входа в мир Li — с тем же уровнем тишины, комфорта и технологий.",
+    "uz": "Li dunyosiga kirish nuqtasi — o‘sha sukunat, qulaylik va texnologiyalar darajasi bilan."
+  },
+  "intro": {
+    "ru": "Li L6 создан для семьи, которая каждый день ездит по городу на электричестве, а по выходным уезжает в горы или к родственникам в другой регион. Полный привод, просторный второй ряд и 1 390 км общего запаса хода — без компромиссов и без поиска зарядок.",
+    "uz": "Li L6 har kuni shahar bo‘ylab elektrda yuradigan, dam olish kunlari esa tog‘larga yoki boshqa viloyatdagi qarindoshlarnikiga ketadigan oila uchun yaratilgan. To‘liq yuritma, keng ikkinchi qator va 1 390 km umumiy yurish zaxirasi — murosasiz va zaryadlash stansiyasi qidirmasdan."
+  },
+  "seo": {
+    "title": {
+      "ru": "Li L6 Ultra в Самарканде — цена, характеристики, фото | Aster Li",
+      "uz": "Li L6 Ultra Samarqandda — narxi, xususiyatlari, rasmlari | Aster Li"
+    },
+    "description": {
+      "ru": "Li L6 Ultra у официального дилера в Самарканде: 5-местный SUV с полным приводом, 408 л.с., 0–100 км/ч за 5,4 с, запас хода до 1 390 км. Узнайте цену и наличие в Aster Li.",
+      "uz": "Li L6 Ultra Samarqanddagi rasmiy dilerda: 5 o‘rinli to‘liq yuritmali SUV, 408 o.k., 0–100 km/soat 5,4 soniyada, 1 390 km gacha yurish zaxirasi. Aster Li’da narx va mavjudlikni bilib oling."
+    }
+  },
+  "card": "assets/img/models/l6-ultra/card.png",
+  "hero": "assets/img/models/l6-ultra/hero.webp",
+  "priceList": { "ru": "price/li-l6-ru.pdf", "uz": "price/li-l6-uz.pdf" },
+  "key": [
+    {
+      "v": "1 390",
+      "l": {
+        "ru": "км общий запас*",
+        "uz": "km umumiy zaxira*"
+      }
+    },
+    {
+      "v": "212",
+      "l": {
+        "ru": "км на электричестве*",
+        "uz": "km elektrda*"
+      }
+    },
+    {
+      "v": "5,4 с",
+      "l": {
+        "ru": "0–100 км/ч",
+        "uz": "0–100 km/soat"
+      }
+    },
+    {
+      "v": "408",
+      "l": {
+        "ru": "л.с., два мотора",
+        "uz": "o.k., ikki motor"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "img": "assets/img/models/l6-ultra/section-1.webp",
+      "eyebrow": {
+        "ru": "Дизайн",
+        "uz": "Dizayn"
+      },
+      "title": {
+        "ru": "Спокойная уверенность в каждой линии",
+        "uz": "Har bir chiziqda xotirjam ishonch"
+      },
+      "text": {
+        "ru": "Чистый силуэт без лишних деталей и коэффициент сопротивления всего 0,269 — L6 выглядит дорого и тратит меньше энергии на скорости.",
+        "uz": "Ortiqcha detallarsiz toza siluet va atigi 0,269 havo qarshiligi koeffitsiyenti — L6 qimmat ko‘rinadi va tezlikda kamroq energiya sarflaydi."
+      }
+    },
+    {
+      "img": "assets/img/models/l6-ultra/section-2.webp",
+      "eyebrow": {
+        "ru": "Комфорт",
+        "uz": "Qulaylik"
+      },
+      "title": {
+        "ru": "Кресла, в которые хочется вернуться",
+        "uz": "Qaytib o‘tirgingiz keladigan o‘rindiqlar"
+      },
+      "text": {
+        "ru": "Кожа Nappa, электрорегулировки, подогрев всех пяти мест и вентиляция четырёх. Передние кресла делают массаж, а подогрев можно включить с телефона заранее — зимним утром салон уже тёплый.",
+        "uz": "Nappa charmi, elektr rostlash, beshta o‘rinning hammasida isitish va to‘rttasida ventilyatsiya. Old o‘rindiqlar massaj qiladi, isitishni esa telefondan oldindan yoqish mumkin — qishki tongda salon allaqachon iliq."
+      }
+    },
+    {
+      "img": "assets/img/models/l6-ultra/section-3.webp",
+      "eyebrow": {
+        "ru": "Для семьи",
+        "uz": "Oila uchun"
+      },
+      "title": {
+        "ru": "Холодильник, панорама и место для всех",
+        "uz": "Muzlatgich, panorama va hamma uchun joy"
+      },
+      "text": {
+        "ru": "Компрессорный холодильник на 8,8 л охлаждает и греет, панорамная крыша площадью 1,26 м² отсекает 99,8% ультрафиолета, а спинки складываются в ровное спальное место.",
+        "uz": "8,8 litrli kompressorli muzlatgich sovutadi va isitadi, 1,26 m² panorama tom ultrabinafsha nurlarning 99,8% ini to‘sadi, suyanchiqlar esa tekis uxlash joyiga aylanadi."
+      }
+    },
+    {
+      "img": "assets/img/models/l6-ultra/section-4.webp",
+      "eyebrow": {
+        "ru": "Технологии",
+        "uz": "Texnologiyalar"
+      },
+      "title": {
+        "ru": "Умный салон, который понимает голос",
+        "uz": "Ovozni tushunadigan aqlli salon"
+      },
+      "text": {
+        "ru": "Два 3K-экрана по 15,7″, проекция на лобовое стекло и голосовой ассистент на базе ИИ. 19 динамиков и 1 920 Вт превращают дорогу в концертный зал.",
+        "uz": "Ikkita 15,7″ 3K ekran, old oynaga proyeksiya va sun’iy intellektga asoslangan ovozli yordamchi. 19 ta dinamik va 1 920 Vt yo‘lni konsert zaliga aylantiradi."
+      }
+    },
+    {
+      "img": "assets/img/models/l6-ultra/section-5.webp",
+      "eyebrow": {
+        "ru": "На дороге",
+        "uz": "Yo‘lda"
+      },
+      "title": {
+        "ru": "Полный привод для гор и зимы",
+        "uz": "Tog‘ va qish uchun to‘liq yuritma"
+      },
+      "text": {
+        "ru": "Два электромотора, адаптивные амортизаторы CDC и режимы для снега, грязи и спусков. Тепловой насос бережёт запас хода в холода.",
+        "uz": "Ikkita elektromotor, CDC adaptiv amortizatorlari va qor, loy va qiyaliklar uchun rejimlar. Issiqlik nasosi sovuqda yurish zaxirasini asraydi."
+      }
+    }
+  ],
+  "specs": [
+    {
+      "group": "dims",
+      "rows": [
+        [
+          "length",
+          "4 925 мм"
+        ],
+        [
+          "width",
+          "1 960 мм"
+        ],
+        [
+          "height",
+          "1 735 мм"
+        ],
+        [
+          "wheelbase",
+          "2 920 мм"
+        ],
+        [
+          "seats",
+          "5"
+        ]
+      ]
+    },
+    {
+      "group": "power",
+      "rows": [
+        [
+          "drive",
+          {
+            "ru": "Полный, 2 электромотора",
+            "uz": "To‘liq, 2 elektromotor"
+          }
+        ],
+        [
+          "power",
+          "300 кВт / 408 л.с."
+        ],
+        [
+          "accel",
+          "5,4 с"
+        ],
+        [
+          "battery",
+          "36,8 кВт·ч LFP"
+        ],
+        [
+          "evRange",
+          "212 км (CLTC)"
+        ],
+        [
+          "range",
+          "1 390 км (CLTC)"
+        ],
+        [
+          "tank",
+          "60 л"
+        ],
+        [
+          "fuel",
+          "6,9 л/100 км (WLTC)"
+        ],
+        [
+          "v2l",
+          "3,5 кВт"
+        ]
+      ]
+    },
+    {
+      "group": "chassis",
+      "rows": [
+        [
+          "suspension",
+          {
+            "ru": "Двойные рычаги / многорычажная, CDC",
+            "uz": "Qo‘sh richag / ko‘p richagli, CDC"
+          }
+        ],
+        [
+          "cd",
+          "0,269"
+        ]
+      ]
+    },
+    {
+      "group": "cabin",
+      "rows": [
+        [
+          "screens",
+          {
+            "ru": "2 × 15,7″ 3K + HUD",
+            "uz": "2 × 15,7″ 3K + HUD"
+          }
+        ],
+        [
+          "chip",
+          "Snapdragon 8295P, 24 ГБ"
+        ],
+        [
+          "audio",
+          {
+            "ru": "19 динамиков, 1 920 Вт, 7.3.4",
+            "uz": "19 dinamik, 1 920 Vt, 7.3.4"
+          }
+        ],
+        [
+          "fridge",
+          "8,8 л"
+        ],
+        [
+          "roof",
+          "1,26 м²"
+        ]
+      ]
+    },
+    {
+      "group": "safety",
+      "rows": [
+        [
+          "airbags",
+          "9"
+        ],
+        [
+          "adas",
+          "AD Pro / AD Max, LiDAR"
+        ],
+        [
+          "aeb",
+          {
+            "ru": "до 120 км/ч",
+            "uz": "120 km/soatgacha"
+          }
+        ]
+      ]
+    }
+  ]
+}

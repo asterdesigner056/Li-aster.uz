@@ -1,0 +1,19 @@
+<header class="hdr" id="top">
+  <div class="wrap hdr__in">
+    <a href="{{homeLink}}" class="logo" aria-label="Li Auto — {{cfg.dealerShort}}">{{> logo}}</a>
+    <nav class="nav" id="nav" aria-label="main">
+      <a href="{{homeHref}}#models">{{t.nav.models}}</a>
+      {{navExtra}}
+      <a href="{{homeHref}}#tech">{{t.nav.tech}}</a>
+      <a href="{{contactsHref}}">{{t.nav.contacts}}</a>
+      <a class="nav__phone" href="tel:{{cfg.phoneRaw}}">{{cfg.phone}}</a>
+      <div class="soc nav__soc">{{socialLinks}}</div>
+    </nav>
+    <div class="hdr__right">
+      <div class="lang">{{langSwitch}}</div>
+      <a class="hdr__phone" href="tel:{{cfg.phoneRaw}}" data-ev="call_header">{{cfg.phone}}</a>
+      <a class="btn btn--light btn--sm hdr__cta" href="#lead" data-book="" data-ev="cta_header">{{t.models.btnBook}}</a>
+      <button class="burger" id="burger" aria-label="{{t.nav.menu}}" aria-controls="nav" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>

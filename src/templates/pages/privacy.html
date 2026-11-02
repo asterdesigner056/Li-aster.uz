@@ -1,0 +1,12 @@
+{{> head}}
+{{> header}}
+<main class="legal">
+  <div class="wrap legal__in">
+    <p class="eyebrow">{{cfg.dealerShort}}</p>
+    <h1 class="legal__title">{{t.privacy.title}}</h1>
+    <p class="legal__meta">{{t.privacy.updatedLabel}} {{updated}}</p>
+    <div class="legal__body">{{privacyHtml}}</div>
+    <a class="btn btn--dark" href="{{homeHref}}">← {{t.nav.home}}</a>
+  </div>
+</main>
+{{> footer}}

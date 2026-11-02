@@ -1,0 +1,288 @@
+{
+  "id": "l9-livis",
+  "slug": "li-l9-livis",
+  "name": "Li L9 Livis",
+  "class": {
+    "ru": "6 мест · новое поколение",
+    "uz": "6 o‘rin · yangi avlod"
+  },
+  "tagline": {
+    "ru": "Самый мощный Li: 571 л.с., 800 вольт и зарядка за 10 минут.",
+    "uz": "Eng kuchli Li: 571 o.k., 800 volt va 10 daqiqada zaryadlash."
+  },
+  "intro": {
+    "ru": "L9 Livis — вершина линейки. 800-вольтовая архитектура и батарея 72,7 кВт·ч на 5C заряжаются с 10 до 80% за 10 минут, активная подвеска держит кузов ровно в поворотах, а подруливающие задние колёса разворачивают пятиметровый SUV на пятачке 5,3 м.",
+    "uz": "L9 Livis — qatorning cho‘qqisi. 800 voltli arxitektura va 5C’dagi 72,7 kVt·soatlik batareya 10 dan 80% gacha 10 daqiqada zaryadlanadi, faol osma burilishlarda kuzovni tekis ushlaydi, buriladigan orqa g‘ildiraklar esa besh metrli SUV’ni 5,3 m maydonchada aylantiradi."
+  },
+  "seo": {
+    "title": {
+      "ru": "Li L9 Livis в Самарканде — 571 л.с., 800 В, цена | Aster Li",
+      "uz": "Li L9 Livis Samarqandda — 571 o.k., 800 V, narxi | Aster Li"
+    },
+    "description": {
+      "ru": "Новый Li L9 Livis в Самарканде: 571 л.с., 0–100 км/ч за 4,9 с, 800 В и зарядка 10–80% за 10 минут, 350 км на электричестве. Узнайте цену и условия в Aster Li.",
+      "uz": "Yangi Li L9 Livis Samarqandda: 571 o.k., 0–100 km/soat 4,9 soniyada, 800 V va 10–80% ni 10 daqiqada zaryadlash, elektrda 350 km. Narx va shartlarni Aster Li’da bilib oling."
+    }
+  },
+  "badge": {
+    "ru": "Новинка",
+    "uz": "Yangi"
+  },
+  "card": "assets/img/models/l9-livis/card.png",
+  "hero": "assets/img/models/l9-livis/hero.webp",
+  "priceList": { "ru": "price/li-l9-livis-ru.pdf", "uz": "price/li-l9-livis-uz.pdf" },
+  "key": [
+    {
+      "v": "571",
+      "l": {
+        "ru": "л.с., 710 Н·м",
+        "uz": "o.k., 710 N·m"
+      }
+    },
+    {
+      "v": "4,9 с",
+      "l": {
+        "ru": "0–100 км/ч",
+        "uz": "0–100 km/soat"
+      }
+    },
+    {
+      "v": "350",
+      "l": {
+        "ru": "км на электричестве*",
+        "uz": "km elektrda*"
+      }
+    },
+    {
+      "v": "10 мин",
+      "l": {
+        "ru": "зарядка 10–80%",
+        "uz": "10–80% zaryad"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "img": "assets/img/models/l9-livis/section-1.webp",
+      "eyebrow": {
+        "ru": "Дизайн",
+        "uz": "Dizayn"
+      },
+      "title": {
+        "ru": "Двухцветный кузов и 22-дюймовые диски",
+        "uz": "Ikki rangli kuzov va 22 dyuymli disklar"
+      },
+      "text": {
+        "ru": "Контрастная крыша, оптика Halo и диски цвета оружейной стали. Четыре сочетания цветов — каждое выглядит как отдельная коллекция.",
+        "uz": "Kontrast tom, Halo optikasi va qurol po‘lati rangidagi disklar. To‘rtta rang uyg‘unligi — har biri alohida kolleksiyadek."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-livis/section-2.webp",
+      "eyebrow": {
+        "ru": "Салон",
+        "uz": "Salon"
+      },
+      "title": {
+        "ru": "Кресла Zero Gravity и ровный пол",
+        "uz": "Zero Gravity o‘rindiqlari va tekis pol"
+      },
+      "text": {
+        "ru": "Кресла с эффектом невесомости, панорамный дисплей 29″ 6K, задний экран 21″, семизонный климат и трёхуровневая подсветка Halo.",
+        "uz": "Vaznsizlik effektli o‘rindiqlar, 29″ 6K panorama displey, 21″ orqa ekran, yetti zonali iqlim va uch darajali Halo yoritgichi."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-livis/section-3.webp",
+      "eyebrow": {
+        "ru": "Энергия",
+        "uz": "Energiya"
+      },
+      "title": {
+        "ru": "800 В: кофе — и снова в путь",
+        "uz": "800 V: qahva — va yana yo‘lga"
+      },
+      "text": {
+        "ru": "Батарея 72,7 кВт·ч с зарядкой 5C пополняется с 10 до 80% примерно за 10 минут на совместимой станции. 350 км на электричестве и 1 370 км общего запаса (WLTC).",
+        "uz": "5C zaryadli 72,7 kVt·soatlik batareya mos stansiyada taxminan 10 daqiqada 10 dan 80% gacha to‘ladi. Elektrda 350 km va 1 370 km umumiy zaxira (WLTC)."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-livis/section-4.webp",
+      "eyebrow": {
+        "ru": "Шасси",
+        "uz": "Shassi"
+      },
+      "title": {
+        "ru": "Активная подвеска и подруливание",
+        "uz": "Faol osma va buriladigan orqa g‘ildiraklar"
+      },
+      "text": {
+        "ru": "Отдельный гидронасос на каждом колесе прикладывает до 10 000 Н, удерживая кузов в поворотах и на гравии. Задние колёса подруливают — радиус разворота всего 5,3 м.",
+        "uz": "Har bir g‘ildirakdagi alohida gidronasos 10 000 N gacha kuch berib, burilishlarda va shag‘alda kuzovni ushlab turadi. Orqa g‘ildiraklar buriladi — burilish radiusi atigi 5,3 m."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-livis/section-5.webp",
+      "eyebrow": {
+        "ru": "Звук и интеллект",
+        "uz": "Ovoz va intellekt"
+      },
+      "title": {
+        "ru": "33 динамика и 2 560 TOPS",
+        "uz": "33 dinamik va 2 560 TOPS"
+      },
+      "text": {
+        "ru": "Аудиосистема 9.3.6, два собственных процессора и четыре лидара с обзором 360° для ассистентов водителя.",
+        "uz": "9.3.6 audiotizim, ikkita xususiy protsessor va haydovchi yordamchilari uchun 360° ko‘rinishli to‘rtta lidar."
+      }
+    }
+  ],
+  "specs": [
+    {
+      "group": "dims",
+      "rows": [
+        [
+          "length",
+          "5 255 мм"
+        ],
+        [
+          "width",
+          "2 000 мм"
+        ],
+        [
+          "height",
+          "1 810 мм"
+        ],
+        [
+          "wheelbase",
+          "3 125 мм"
+        ],
+        [
+          "seats",
+          "6"
+        ],
+        [
+          "turning",
+          "5,3 м"
+        ]
+      ]
+    },
+    {
+      "group": "power",
+      "rows": [
+        [
+          "drive",
+          {
+            "ru": "Полный, 2 электромотора",
+            "uz": "To‘liq, 2 elektromotor"
+          }
+        ],
+        [
+          "arch",
+          "800 В"
+        ],
+        [
+          "power",
+          "420 кВт / 571 л.с."
+        ],
+        [
+          "torque",
+          "710 Н·м"
+        ],
+        [
+          "accel",
+          "4,9 с"
+        ],
+        [
+          "topSpeed",
+          "200 км/ч"
+        ],
+        [
+          "battery",
+          "72,7 кВт·ч, 5C"
+        ],
+        [
+          "evRange",
+          "350 км (WLTC)"
+        ],
+        [
+          "range",
+          "1 370 км (WLTC)"
+        ],
+        [
+          "fuel",
+          "6,6 л/100 км (NEDC)"
+        ],
+        [
+          "charge",
+          {
+            "ru": "10–80% ≈ 10 мин",
+            "uz": "10–80% ≈ 10 daq"
+          }
+        ]
+      ]
+    },
+    {
+      "group": "chassis",
+      "rows": [
+        [
+          "suspension",
+          {
+            "ru": "Активная, гидронасос на каждом колесе",
+            "uz": "Faol, har g‘ildirakda gidronasos"
+          }
+        ],
+        [
+          "steering",
+          {
+            "ru": "Подруливающие задние колёса",
+            "uz": "Buriladigan orqa g‘ildiraklar"
+          }
+        ]
+      ]
+    },
+    {
+      "group": "cabin",
+      "rows": [
+        [
+          "screens",
+          {
+            "ru": "29″ 6K панорама + 21″ сзади",
+            "uz": "29″ 6K panorama + orqada 21″"
+          }
+        ],
+        [
+          "audio",
+          {
+            "ru": "33 динамика, 9.3.6",
+            "uz": "33 dinamik, 9.3.6"
+          }
+        ],
+        [
+          "climate",
+          {
+            "ru": "7 зон",
+            "uz": "7 zona"
+          }
+        ],
+        [
+          "chip",
+          "2 × Li, 2 560 TOPS"
+        ]
+      ]
+    },
+    {
+      "group": "safety",
+      "rows": [
+        [
+          "adas",
+          {
+            "ru": "4 лидара, 360°",
+            "uz": "4 lidar, 360°"
+          }
+        ]
+      ]
+    }
+  ]
+}

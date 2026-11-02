@@ -1,0 +1,289 @@
+{
+  "langName": "O‘zbekcha",
+  "langShort": "UZ",
+  "locale": "uz_UZ",
+  "meta": {
+    "title": "Li Auto Aster",
+    "description": "Samarqanddagi Li Auto rasmiy dileri.",
+    "keywords": "Li Auto Samarqand",
+    "ogTitle": "Li Auto Samarqandda — Aster Li",
+    "ogDescription": "Li Auto rasmiy dileri"
+  },
+  "nav": {
+    "models": "Modellar",
+    "tech": "Texnologiya",
+    "comfort": "Qulaylik",
+    "contacts": "Kontaktlar",
+    "faq": "Savollar",
+    "cta": "Narxini bilish",
+    "menu": "Menyu",
+    "home": "Bosh sahifa",
+    "overview": "Sharh",
+    "specs": "Xususiyatlar",
+    "gallery": "Galereya"
+  },
+  "hero": {
+    "title": "Elektr sukunati.<br>Rozetkasiz erkinlik.",
+    "cta1": "Model tanlash",
+    "cta2": "Narxini bilish"
+  },
+  "models": {
+    "eyebrow": "Model qatori",
+    "title": "Besh versiya — bitta falsafa",
+    "sub": "L6 Ultra dan flagman L9 Livis gacha: oilangiz kattaligi va texnologiyalar darajasiga mosini tanlang.",
+    "seats": "o‘rin",
+    "power": "o.k.",
+    "range": "km zaxira*",
+    "priceOnRequest": "Narxi so‘rov bo‘yicha",
+    "from": "",
+    "currency": "so‘mdan",
+    "btnMore": "Batafsil",
+    "note": "* Ishlab chiqaruvchi ma’lumotlari (CLTC/WLTC). Haqiqiy yurish zaxirasi sharoit va haydash uslubiga bog‘liq.",
+    "btnBook": "Bron qilish"
+  },
+  "tech": {
+    "eyebrow": "Qanday ishlaydi",
+    "title": "O‘z elektr stansiyasini<br>olib yuradigan elektromobil",
+    "sub": "G‘ildiraklarni doim elektromotorlar aylantiradi. Ixcham benzin dvigateli g‘ildiraklarga ulanmagan — bu uzoq yo‘lda batareyani zaryadlaydigan generator.",
+    "p1t": "Shaharda — faqat tok",
+    "p1d": "Bitta batareyada 430 km gacha: Samarqand bo‘ylab bir haftalik qatnovga yetadi. Kechasi uyda oddiy rozetkadan zaryadlang.",
+    "p2t": "Trassada — to‘xtovsiz",
+    "p2d": "Toshkent, Buxoro, Shahrisabz — stansiya qidirmasdan. Istalgan AYOQSHda yoqilg‘i quyish uch daqiqa oladi.",
+    "p3t": "Ovozsiz tezlanish",
+    "p3d": "Ikki motor, to‘liq yuritma va bir zumda moment. Trassada quvib o‘tish — xotirjam va ishonchli."
+  },
+  "comfort": {
+    "eyebrow": "Salon",
+    "title": "Yo‘l dam olishga<br>aylanadigan salon",
+    "c1t": "Ravon yurish",
+    "c1d": "Pnevmoosma va adaptiv amortizatorlar notekisliklarni yutadi.",
+    "c2t": "Muzlatgich va massaj",
+    "c2d": "Kompressorli muzlatgich, massaj, ventilyatsiya va isitish.",
+    "c3t": "Har kimga ekran",
+    "c3d": "Haydovchi, yo‘lovchi va orqa qatorlarning o‘z displeylari.",
+    "c4t": "Sukunat",
+    "c4d": "Ikki qavatli akustik oyna va eshitilmaydigan generator.",
+    "c5t": "Ovozli yordamchi",
+    "c5d": "Iqlim, musiqa va navigatsiya — istalgan o‘rindan ovoz bilan.",
+    "c6t": "Oilani himoya",
+    "c6d": "Mustahkam kuzov, 9 yostiq va avtotormozlash."
+  },
+  "offer": {
+    "eyebrow": "Shaxsiy taklif",
+    "title": "Narx va mavjudlikni<br>bitta qo‘ng‘iroqda biling",
+    "sub": "Raqamingizni qoldiring — Aster Li menejeri dolzarb narxlar, mavjud komplektatsiyalar, kredit va trade-in haqida aytib beradi. Majburlashsiz.",
+    "cta": "Taklif olish"
+  },
+  "why": {
+    "eyebrow": "Nega Aster Li",
+    "title": "Avtomobilga munosib xarid",
+    "w1t": "Rasmiy kafolat",
+    "w1d": "Ishlab chiqaruvchi kafolati bilan rasmiy yetkazilgan avtomobillar.",
+    "w2t": "Servis yaqinda",
+    "w2d": "Samarqandda xizmat ko‘rsatish va original ehtiyot qismlar.",
+    "w3t": "Trade-in",
+    "w3d": "Avtomobilingizni baholaymiz va yangi Li narxiga hisoblaymiz.",
+    "w4t": "Kredit va muddatli to‘lov",
+    "w4d": "Hamkor banklardan shartlar tanlaymiz, qaror murojaat kunida."
+  },
+  "form": {
+    "eyebrow": "Ariza",
+    "title": "Ariza qoldiring.<br>15 daqiqada qo‘ng‘iroq qilamiz",
+    "sub": "Ish vaqtida. Narxlar, mavjudlik va maxsus takliflar haqida aytib beramiz.",
+    "name": "Ismingiz",
+    "phone": "Telefon",
+    "model": "Model",
+    "anyModel": "Hali tanlamadim",
+    "submit": "Ariza yuborish",
+    "sending": "Yuborilmoqda…",
+    "okTitle": "Rahmat! Ariza qabul qilindi",
+    "okText": "Menejer tez orada siz bilan bog‘lanadi.",
+    "err": "Yuborib bo‘lmadi. Bizga qo‘ng‘iroq qiling yoki qayta urinib ko‘ring.",
+    "errPhone": "Raqamni to‘liq kiriting: +998 dan keyin 9 raqam",
+    "errName": "Faqat harflar, kamida 2 ta",
+    "secure": "Ma’lumotlaringiz himoyalangan va uchinchi shaxslarga berilmaydi",
+    "consentPre": "Men",
+    "consentLink": "maxfiylik siyosatiga roziman"
+  },
+  "contacts": {
+    "eyebrow": "Bizni qayerdan topish mumkin",
+    "title": "Samarqanddagi shourum",
+    "route": "Yo‘nalish",
+    "call": "Qo‘ng‘iroq",
+    "hours": "Ish vaqti"
+  },
+  "faq": {
+    "eyebrow": "Savollar",
+    "title": "Ko‘p beriladigan savollar",
+    "items": [
+      {
+        "q": "Li Auto’ni rozetkadan zaryadlash shartmi?",
+        "a": "Shart emas. Barcha modellar yurish zaxirasi kengaytirilgan elektromobillar (EREV): batareyani uyda yoki tezkor stansiyada zaryadlash mumkin, yo‘lda esa uni benzin generatori zaryadlaydi. Viloyatlarga safar uchun oddiy AYOQSH kifoya."
+      },
+      {
+        "q": "Li Auto oddiy gibriddan nimasi bilan farq qiladi?",
+        "a": "Oddiy gibridda dvigatel g‘ildiraklarni aylantiradi. Li’da g‘ildiraklarni doim elektromotorlar aylantiradi, dvigatel esa faqat elektr ishlab chiqaradi. Shuning uchun avtomobil elektromobil kabi jim va ravon yuradi, lekin masofa cheklanmagan."
+      },
+      {
+        "q": "Ultra versiyasi Livis’dan nimasi bilan farq qiladi?",
+        "a": "L8 va L9 ning ikkala versiyasida motor, batareya va salon bir xil. Livis — eng yuqori versiya: pnevmatik o‘rniga 800 V faol osma, bitta o‘rniga ikkita Mach M100 protsessori (2 560 TOPS) va to‘rtta lidar. L8 Livis’da yana elektromexanik tormozlar ham bor."
+      },
+      {
+        "q": "Samarqandda kafolat va servis bormi?",
+        "a": "Ha. Aster Li — rasmiy diler: avtomobillar ishlab chiqaruvchi kafolati bilan yetkaziladi, xizmat ko‘rsatish Samarqandda original ehtiyot qismlar bilan amalga oshiriladi. Kafolat muddati va shartlarini menejerdan aniqlang."
+      },
+      {
+        "q": "Kreditga olish yoki avtomobilimni almashtirish mumkinmi?",
+        "a": "Ha. Hamkor banklar bilan ishlaymiz va avtomobillarni trade-in’ga qabul qilamiz. Ariza qoldiring — menejer shartlarni tanlaydi va to‘lovni hisoblaydi."
+      },
+      {
+        "q": "Samarqandda Li Auto qancha turadi?",
+        "a": "Narx model, komplektatsiya va joriy aksiyalarga bog‘liq. Ariza qoldiring yoki qo‘ng‘iroq qiling — dolzarb narxni aytamiz va mavjud avtomobillar haqida gapirib beramiz."
+      }
+    ]
+  },
+  "model": {
+    "overviewEyebrow": "Sharh",
+    "specsTitle": "Texnik xususiyatlar",
+    "specsNote": "Yuqori komplektatsiyalar uchun ishlab chiqaruvchi ma’lumotlari. O‘zbekiston uchun komplektatsiyalar farq qilishi mumkin — menejerdan aniqlang.",
+    "galleryTitle": "Galereya",
+    "othersTitle": "Boshqa modellar",
+    "ctaTitle": "{name} narxini bilmoqchimisiz?",
+    "ctaSub": "Ariza qoldiring — menejer narxni aytadi, mavjudlik va kredit shartlari haqida gapirib beradi.",
+    "groups": {
+      "dims": "O‘lchamlar",
+      "power": "Kuch qurilmasi",
+      "chassis": "Shassi",
+      "cabin": "Salon va texnologiyalar",
+      "safety": "Xavfsizlik"
+    },
+    "spec": {
+      "length": "Uzunlik",
+      "width": "Kenglik",
+      "height": "Balandlik",
+      "wheelbase": "G‘ildirak bazasi",
+      "seats": "O‘rinlar",
+      "trunk": "Yukxona",
+      "turning": "Burilish radiusi",
+      "drive": "Yuritma",
+      "power": "Quvvat",
+      "torque": "Aylantiruvchi moment",
+      "accel": "0–100 km/soat",
+      "topSpeed": "Maks. tezlik",
+      "battery": "Batareya",
+      "evRange": "Elektrda yurish zaxirasi",
+      "range": "Umumiy yurish zaxirasi",
+      "tank": "Yoqilg‘i baki",
+      "fuel": "Batareya bo‘shaganda sarf",
+      "charge": "Tezkor zaryadlash",
+      "v2l": "Tashqi qurilmalarni quvvatlash",
+      "arch": "Arxitektura",
+      "suspension": "Osma",
+      "clearance": "Klirens sozlamasi",
+      "cd": "Havo qarshiligi koeffitsiyenti",
+      "steering": "Rul boshqaruvi",
+      "screens": "Ekranlar",
+      "chip": "Protsessor",
+      "audio": "Audiotizim",
+      "fridge": "Muzlatgich",
+      "roof": "Panorama tom",
+      "legroom": "Orqada oyoqlar uchun joy",
+      "massage": "Massaj",
+      "climate": "Iqlim",
+      "airbags": "Xavfsizlik yostiqlari",
+      "adas": "Haydovchi yordamchilari",
+      "aeb": "Avtotormozlash",
+      "roofLoad": "Tomga yuklama",
+      "brakes": "Tormozlar"
+    },
+    "priceList": "Narxlar ro‘yxatini yuklab olish"
+  },
+  "footer": {
+    "about": "Aster Li — Samarqanddagi Li Auto rasmiy dileri. Yurish zaxirasi kengaytirilgan premium SUV’lar.",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "disclaimer": "Saytdagi ma’lumotlar ommaviy oferta emas. Xususiyatlar va komplektatsiyalar farq qilishi mumkin — menejerdan aniqlang.",
+    "privacy": "Maxfiylik siyosati"
+  },
+  "bar": {
+    "call": "Qo‘ng‘iroq",
+    "lead": "Ariza qoldirish"
+  },
+  "book": {
+    "eyebrow": "Bron qilish",
+    "title": "Bron qilish",
+    "sub": "Ismingiz va telefoningizni qoldiring — Aster Li menejeri qo‘ng‘iroq qilib, bronni tasdiqlaydi va shartlar haqida aytib beradi.",
+    "submit": "Bron qilish",
+    "okTitle": "Rahmat! Bron qabul qilindi",
+    "titleModel": "{name}ni bron qilish"
+  },
+  "privacy": {
+    "title": "Maxfiylik siyosati",
+    "description": "Samarqanddagi Li Auto rasmiy dileri sayti tashrif buyuruvchilarining shaxsiy ma’lumotlarini qayta ishlash siyosati.",
+    "updatedLabel": "Tahrir sanasi:",
+    "sections": [
+      {
+        "h": "1. Umumiy qoidalar",
+        "p": [
+          "Ushbu siyosat {legal} (keyingi o‘rinlarda — «Diler») {site} sayti (keyingi o‘rinlarda — «Sayt») tashrif buyuruvchilarining shaxsiy ma’lumotlarini qanday qayta ishlashi va himoya qilishini belgilaydi.",
+          "Siyosat O‘zbekiston Respublikasining «Shaxsga doir ma’lumotlar to‘g‘risida»gi Qonuni va boshqa amaldagi qonunchilikka muvofiq tuzilgan. Saytdan foydalanib va ariza yuborib, siz siyosat shartlariga roziligingizni tasdiqlaysiz."
+        ]
+      },
+      {
+        "h": "2. Qanday ma’lumotlarni olamiz",
+        "p": [
+          "Shakllarda ko‘rsatgan ma’lumotlaringiz: ism va telefon raqami, shuningdek tanlangan avtomobil modeli.",
+          "Texnik ma’lumotlar: ariza yuborilgan sahifa, sayt tili, o‘tish manbai va reklama belgilari (UTM), IP-manzil, brauzer va qurilma haqidagi ma’lumotlar, cookie fayllari."
+        ]
+      },
+      {
+        "h": "3. Qayta ishlash maqsadlari",
+        "p": [
+          "Qoldirgan arizangiz bo‘yicha siz bilan bog‘lanish: maslahat, narx va mavjudlik haqida xabar berish, avtomobilni bron qilish, salonga taklif qilish.",
+          "Murojaatlarni Dilerning mijozlar bilan ishlash tizimida hisobga olish va qayta ishlash.",
+          "Tashriflarni tahlil qilish, Sayt va reklama ishini yaxshilash."
+        ]
+      },
+      {
+        "h": "4. Huquqiy asoslar",
+        "p": [
+          "Shaxsiy ma’lumotlar shakldagi tegishli katakchani belgilab, ariza yuborganingizda beradigan roziligingiz asosida qayta ishlanadi.",
+          "Roziligingizni istalgan vaqtda {phone} telefoni orqali xabar berib, qaytarib olishingiz mumkin."
+        ]
+      },
+      {
+        "h": "5. Uzatish va saqlash",
+        "p": [
+          "Ma’lumotlar faqat Dilerning vakolatli xodimlariga ochiq va murojaatlarni hisobga olish tizimida ishlatiladi. Qonunda nazarda tutilgan hollardan tashqari, ma’lumotlaringizni sotmaymiz va uchinchi shaxslarga ularning o‘z maqsadlari uchun bermaymiz.",
+          "Ma’lumotlar qayta ishlash maqsadlari uchun zarur bo‘lgan muddat davomida yoki rozilik qaytarib olinguncha saqlanadi, so‘ngra o‘chiriladi yoki anonimlashtiriladi. Saqlash O‘zbekiston Respublikasi qonunchiligi talablariga rioya qilgan holda amalga oshiriladi."
+        ]
+      },
+      {
+        "h": "6. Ma’lumotlarni himoya qilish",
+        "p": [
+          "Biz tashkiliy va texnik himoya choralarini qo‘llaymiz: kirishni cheklash, ma’lumotlarni himoyalangan uzatish (HTTPS), shakllarni avtomatik yuborishlardan himoya qilish."
+        ]
+      },
+      {
+        "h": "7. Cookie fayllari va tahlil",
+        "p": [
+          "Sayt tashriflarni hisoblash va reklama samaradorligini baholash uchun cookie fayllari va veb-tahlil xizmatlaridan (masalan, Yandex.Metrika, Google Analytics) foydalanishi mumkin. Cookie’ni brauzer sozlamalarida o‘chirish mumkin — Saytning asosiy funksiyalari saqlanib qoladi."
+        ]
+      },
+      {
+        "h": "8. Sizning huquqlaringiz",
+        "p": [
+          "Siz qaysi ma’lumotlaringiz qayta ishlanayotganini bilish, ularni aniqlashtirish, bloklash yoki o‘chirishni talab qilish, shuningdek qayta ishlashga roziligingizni qaytarib olish huquqiga egasiz."
+        ]
+      },
+      {
+        "h": "9. Kontaktlar",
+        "p": [
+          "{dealer}",
+          "Manzil: {address}",
+          "Telefon: {phone}",
+          "Diler siyosatni yangilashi mumkin. Amaldagi tahrir doimo ushbu sahifada mavjud."
+        ]
+      }
+    ]
+  }
+}

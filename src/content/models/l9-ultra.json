@@ -1,0 +1,240 @@
+{
+  "id": "l9-ultra",
+  "slug": "li-l9-ultra",
+  "name": "Li L9 Ultra",
+  "class": {
+    "ru": "6 мест · флагманский SUV",
+    "uz": "6 o‘rin · flagman SUV"
+  },
+  "tagline": {
+    "ru": "Шесть полноценных кресел, 571 л.с. и зарядка 5C — флагман для большой семьи.",
+    "uz": "Oltita to‘liq o‘rindiq, 571 o.k. va 5C zaryadlash — katta oila uchun flagman."
+  },
+  "intro": {
+    "ru": "Li L9 Ultra — шестиместный флагман нового поколения. Тот же силовой агрегат, что у L9 Livis: 571 л.с., разгон до 100 км/ч за 4,9 с и батарея 72,7 кВт·ч с быстрой зарядкой 5C. Три ряда полноценных кресел, панорамный экран 29″ и пневмоподвеска — для тех, кому важны простор и комфорт без доплаты за активное шасси.",
+    "uz": "Li L9 Ultra — yangi avlod olti o‘rinli flagmani. L9 Livis’dagi kuch agregati: 571 o.k., 100 km/soatgacha 4,9 soniyada va 5C tezkor zaryadli 72,7 kVt·soatlik batareya. Uch qator to‘liq o‘rindiqlar, 29″ panorama ekran va pnevmoosma — faol shassi uchun qo‘shimcha to‘lamasdan kenglik va qulaylikni qadrlaydiganlar uchun."
+  },
+  "seo": {
+    "title": {
+      "ru": "Li L9 Ultra в Самарканде — 6 мест, 571 л.с., цена | Aster Li",
+      "uz": "Li L9 Ultra Samarqandda — 6 o‘rin, 571 o.k., narxi | Aster Li"
+    },
+    "description": {
+      "ru": "Li L9 Ultra у официального дилера в Самарканде: 6 мест в три ряда, 571 л.с., 0–100 км/ч за 4,9 с, батарея 72,7 кВт·ч с зарядкой 5C, 350 км на электричестве. Цена и наличие — в Aster Li.",
+      "uz": "Li L9 Ultra Samarqanddagi rasmiy dilerda: uch qatorda 6 o‘rin, 571 o.k., 0–100 km/soat 4,9 soniyada, 5C zaryadli 72,7 kVt·soatlik batareya, elektrda 350 km. Narx va mavjudlik — Aster Li’da."
+    }
+  },
+  "card": "assets/img/models/l9-ultra/card.png",
+  "hero": "assets/img/models/l9-ultra/hero.webp",
+  "priceList": { "ru": "price/li-l9-ultra-ru.pdf", "uz": "price/li-l9-ultra-uz.pdf" },
+  "key": [
+    {
+      "v": "571",
+      "l": {
+        "ru": "л.с., 710 Н·м",
+        "uz": "o.k., 710 N·m"
+      }
+    },
+    {
+      "v": "4,9 с",
+      "l": {
+        "ru": "0–100 км/ч",
+        "uz": "0–100 km/soat"
+      }
+    },
+    {
+      "v": "350",
+      "l": {
+        "ru": "км на электричестве*",
+        "uz": "km elektrda*"
+      }
+    },
+    {
+      "v": "6",
+      "l": {
+        "ru": "полноценных мест",
+        "uz": "to‘liq o‘rin"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "img": "assets/img/models/l9-ultra/section-1.webp",
+      "eyebrow": {
+        "ru": "Пространство",
+        "uz": "Kenglik"
+      },
+      "title": {
+        "ru": "Три ряда — и все в первом классе",
+        "uz": "Uch qator — hammasi birinchi klassda"
+      },
+      "text": {
+        "ru": "Колёсная база больше 3,1 м и длина 5,25 м. Третий ряд рассчитан на взрослых, а сложенные кресла превращают салон в ровное спальное место.",
+        "uz": "3,1 m dan ortiq g‘ildirak bazasi va 5,25 m uzunlik. Uchinchi qator kattalar uchun mo‘ljallangan, yig‘ilgan o‘rindiqlar esa salonni tekis uxlash joyiga aylantiradi."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-ultra/section-2.webp",
+      "eyebrow": {
+        "ru": "Динамика",
+        "uz": "Dinamika"
+      },
+      "title": {
+        "ru": "571 л.с. в шестиместном кузове",
+        "uz": "Olti o‘rinli kuzovda 571 o.k."
+      },
+      "text": {
+        "ru": "Два электромотора и 710 Н·м с места: до 100 км/ч за 4,9 с. Генератор нового поколения включается почти беззвучно и экономнее тратит топливо в дальней дороге.",
+        "uz": "Ikkita elektromotor va joyidan 710 N·m: 100 km/soatgacha 4,9 soniyada. Yangi avlod generatori deyarli ovozsiz ishga tushadi va uzoq yo‘lda yoqilg‘ini tejamliroq sarflaydi."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-ultra/section-3.webp",
+      "eyebrow": {
+        "ru": "Энергия",
+        "uz": "Energiya"
+      },
+      "title": {
+        "ru": "Батарея 72,7 кВт·ч и зарядка 5C",
+        "uz": "72,7 kVt·soat batareya va 5C zaryadlash"
+      },
+      "text": {
+        "ru": "350 км на электричестве и 1 370 км общего запаса хода (WLTC). На совместимой быстрой станции батарея пополняется за время короткой остановки.",
+        "uz": "Elektrda 350 km va 1 370 km umumiy yurish zaxirasi (WLTC). Mos tezkor stansiyada batareya qisqa to‘xtash vaqtida to‘ladi."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-ultra/section-4.webp",
+      "eyebrow": {
+        "ru": "Салон",
+        "uz": "Salon"
+      },
+      "title": {
+        "ru": "Панорамный экран 29″ и кинотеатр сзади",
+        "uz": "29″ panorama ekran va orqada kinoteatr"
+      },
+      "text": {
+        "ru": "Широкий 6K-дисплей во всю переднюю панель и отдельный экран 21″ для задних рядов. Голосовой ассистент управляет климатом, музыкой и навигацией с любого места.",
+        "uz": "Butun old panel bo‘ylab keng 6K displey va orqa qatorlar uchun alohida 21″ ekran. Ovozli yordamchi istalgan o‘rindan iqlim, musiqa va navigatsiyani boshqaradi."
+      }
+    },
+    {
+      "img": "assets/img/models/l9-ultra/section-5.webp",
+      "eyebrow": {
+        "ru": "Ultra или Livis",
+        "uz": "Ultra yoki Livis"
+      },
+      "title": {
+        "ru": "Тот же характер — проще шасси",
+        "uz": "O‘sha xarakter — soddaroq shassi"
+      },
+      "text": {
+        "ru": "L9 Ultra получает пневмоподвеску и один процессор Mach M100 с лидаром. L9 Livis — активную подвеску 800 В, два процессора и четыре лидара. Мотор, батарея и салон — одинаковые.",
+        "uz": "L9 Ultra pnevmoosma va lidarli bitta Mach M100 protsessorini oladi. L9 Livis — 800 V faol osma, ikkita protsessor va to‘rtta lidar. Motor, batareya va salon — bir xil."
+      }
+    }
+  ],
+  "specs": [
+    {
+      "group": "dims",
+      "rows": [
+        [
+          "length",
+          "5 255 мм"
+        ],
+        [
+          "width",
+          "2 000 мм"
+        ],
+        [
+          "height",
+          "1 810 мм"
+        ],
+        [
+          "wheelbase",
+          "3 125 мм"
+        ],
+        [
+          "seats",
+          "6"
+        ]
+      ]
+    },
+    {
+      "group": "power",
+      "rows": [
+        [
+          "drive",
+          {
+            "ru": "Полный, 2 электромотора",
+            "uz": "To‘liq, 2 elektromotor"
+          }
+        ],
+        [
+          "power",
+          "420 кВт / 571 л.с."
+        ],
+        [
+          "torque",
+          "710 Н·м"
+        ],
+        [
+          "accel",
+          "4,9 с"
+        ],
+        [
+          "battery",
+          "72,7 кВт·ч, 5C"
+        ],
+        [
+          "evRange",
+          "350 км (WLTC)"
+        ],
+        [
+          "range",
+          "1 370 км (WLTC)"
+        ]
+      ]
+    },
+    {
+      "group": "chassis",
+      "rows": [
+        [
+          "suspension",
+          {
+            "ru": "Пневмоподвеска, адаптивные амортизаторы",
+            "uz": "Pnevmoosma, adaptiv amortizatorlar"
+          }
+        ]
+      ]
+    },
+    {
+      "group": "cabin",
+      "rows": [
+        [
+          "screens",
+          {
+            "ru": "29″ 6K панорама + 21″ сзади",
+            "uz": "29″ 6K panorama + orqada 21″"
+          }
+        ],
+        [
+          "chip",
+          "Mach M100, 1 280 TOPS"
+        ]
+      ]
+    },
+    {
+      "group": "safety",
+      "rows": [
+        [
+          "adas",
+          {
+            "ru": "LiDAR, 1 280 TOPS",
+            "uz": "LiDAR, 1 280 TOPS"
+          }
+        ]
+      ]
+    }
+  ]
+}

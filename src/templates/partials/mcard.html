@@ -1,0 +1,21 @@
+<article class="mcard reveal">
+  <a class="mcard__media" href="{{url}}" aria-label="{{name}}">
+    {{badgeHtml}}
+    <span class="mcard__wm" aria-hidden="true">{{short}}</span>
+    <img src="{{cardImg}}" alt="{{name}} — {{cls}}" loading="lazy" decoding="async" data-hide-broken>
+  </a>
+  <div class="mcard__body">
+    <p class="mcard__cls">{{cls}}</p>
+    <h3 class="mcard__name"><a href="{{url}}">{{name}}</a></h3>
+    <dl class="mcard__specs">
+      <div><dt>{{seats}}</dt><dd>{{t.models.seats}}</dd></div>
+      <div><dt>{{hp}}</dt><dd>{{t.models.power}}</dd></div>
+      <div><dt>{{rangeKm}}</dt><dd>{{t.models.range}}</dd></div>
+    </dl>
+    <p class="mcard__price">{{priceHtml}}</p>
+    <div class="mcard__btns">
+      <a href="{{url}}" class="btn btn--dark btn--sm" data-ev="cta_more_{{id}}">{{t.models.btnMore}}</a>
+      <a href="#lead" class="btn btn--line btn--sm" data-book="{{name}}" data-ev="cta_book_{{id}}">{{t.models.btnBook}}</a>
+    </div>
+  </div>
+</article>

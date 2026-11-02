@@ -1,0 +1,37 @@
+# Li Auto · Aster Li — пример настроек nginx (если хостинг на nginx, .htaccess НЕ работает!)
+# Вставьте в блок server { ... } вашего сайта и замените пути/сокет PHP.
+
+server_tokens off;
+client_max_body_size 16k;
+
+add_header Strict-Transport-Security "max-age=31536000" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header X-Frame-Options "DENY" always;
+add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+add_header Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=()" always;
+add_header Cross-Origin-Opener-Policy "same-origin" always;
+add_header Content-Security-Policy "{{CSP}}" always;
+
+index index.html;
+autoindex off;
+
+# скрытые файлы, служебные файлы и папки с заявками
+location ~ /\.(?!well-known/) { return 404; }
+location ~* \.(ini|log|csv|json|md|txt|bak|old|orig|sql|zip|tar|gz|sh|env|ya?ml)$ { return 404; }
+location = /robots.txt { }
+location ~ ^/(aster-li-private|leads[^/]*)(/|$) { return 404; }
+
+# PHP — только send.php, только POST + urlencoded
+location = /send.php {
+    limit_except POST { deny all; }
+    if ($content_type !~* "^application/x-www-form-urlencoded") { return 403; }
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root/send.php;
+    fastcgi_param PHP_VALUE "session.upload_progress.enabled=0
+display_errors=0
+post_max_size=16K";
+    fastcgi_pass unix:/run/php/php8.3-fpm.sock;   # ← ваш сокет PHP-FPM
+}
+location ~* \.(php|phtml|phar)$ { return 404; }
+
+location ~* \.pdf$ { add_header Content-Disposition "attachment"; }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{metaTitle}}</title>
+<meta name="description" content="{{metaDesc}}">
+<meta name="keywords" content="{{metaKeywords}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0c0c0d">
+<meta name="geo.region" content="UZ-SA">
+<meta name="geo.placename" content="Samarkand">
+<link rel="canonical" href="{{pageUrl}}">
+{{hreflang}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{cfg.dealerShort}} · {{cfg.brand}}">
+<meta property="og:locale" content="{{t.locale}}">
+<meta property="og:title" content="{{ogTitle}}">
+<meta property="og:description" content="{{ogDesc}}">
+<meta property="og:url" content="{{pageUrl}}">
+<meta property="og:image" content="{{ogImageUrl}}">
+<meta name="twitter:card" content="summary_large_image">
+{{verification}}
+<link rel="icon" href="{{base}}assets/img/favicon.svg" type="image/svg+xml">
+{{fontsHtml}}
+<link rel="stylesheet" href="{{base}}assets/css/style.css?v={{version}}">
+<link rel="preload" as="image" href="{{heroImg}}" fetchpriority="high">
+<script type="application/ld+json">{{jsonld}}</script>
+{{analyticsHead}}
+</head>
+<body class="{{bodyClass}}">
+<a class="skip" href="#lead">{{t.form.submit}}</a>

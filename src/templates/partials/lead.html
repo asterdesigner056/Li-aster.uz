@@ -1,0 +1,27 @@
+<section class="sec leadsec dark" id="lead">
+  <div class="wrap lead__in">
+    <div class="lead__txt">
+      <p class="eyebrow eyebrow--light reveal">{{t.form.eyebrow}}</p>
+      <h2 class="h2 reveal">{{leadTitle}}</h2>
+      <p class="lead reveal">{{leadSub}}</p>
+      <a class="lead__phone reveal" href="tel:{{cfg.phoneRaw}}" data-ev="call_form">{{cfg.phone}}</a>
+    </div>
+
+    <form class="form js-form reveal" id="leadForm" novalidate>
+      <div class="form__row">
+{{> fields}}
+      </div>
+      <label class="fld fld--dark"><span>{{t.form.model}}</span>
+        <select name="model">{{modelOptions}}</select>
+      </label>
+      <input type="hidden" name="type" value="price">
+{{> hidden}}
+      <button class="btn btn--light btn--block" type="submit">{{t.form.submit}}</button>
+      <p class="form__secure"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>{{t.form.secure}}</p>
+      <div class="form__ok" hidden>
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6"/></svg>
+        <h3>{{t.form.okTitle}}</h3><p>{{t.form.okText}}</p>
+      </div>
+    </form>
+  </div>
+</section>

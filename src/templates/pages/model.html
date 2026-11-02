@@ -1,0 +1,74 @@
+{{> head}}
+{{> header}}
+<main itemscope itemtype="https://schema.org/Car">
+<!-- ============ MODEL HERO ============ -->
+<section class="hero hero--model">
+  <div class="hero__media">
+    <img src="{{heroImg}}" alt="{{m.name}} — {{m.cls}}" fetchpriority="high" decoding="async" data-hide-broken itemprop="image">
+  </div>
+  <div class="hero__shade"></div>
+  <div class="wrap hero__in">
+    <p class="eyebrow eyebrow--light reveal">{{m.cls}} {{m.badgeInline}}</p>
+    <h1 class="hero__title hero__title--model reveal" itemprop="name">{{m.name}}</h1>
+    <p class="hero__sub reveal" itemprop="description">{{m.tag}}</p>
+    <div class="hero__cta reveal">
+      <a href="#lead" class="btn btn--light" data-book="{{m.name}}" data-ev="cta_model_hero">{{t.models.btnBook}}</a>
+    </div>
+    <dl class="stats reveal">{{m.keyHtml}}</dl>
+  </div>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="sec intro" id="overview">
+  <div class="wrap intro__in">
+    <p class="eyebrow reveal">{{t.model.overviewEyebrow}}</p>
+    <p class="intro__txt reveal">{{m.introText}}</p>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="features">
+  {{m.sectionsHtml}}
+</section>
+
+<!-- ============ SPECS ============ -->
+<section class="sec specsec dark" id="specs">
+  <div class="wrap">
+    <header class="sec__head sec__head--row">
+      <div>
+        <p class="eyebrow eyebrow--light reveal">{{m.name}}</p>
+        <h2 class="h2 reveal">{{t.model.specsTitle}}</h2>
+      </div>
+      {{m.priceBtn}}
+    </header>
+    <div class="sgrid">{{m.specsHtml}}</div>
+    <p class="note">{{t.model.specsNote}}</p>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="sec gallery" id="gallery">
+  <div class="wrap">
+    <header class="sec__head sec__head--row">
+      <h2 class="h2 reveal">{{t.model.galleryTitle}}</h2>
+      <div class="gal__nav"><span class="gal__count" id="galCount"></span><button type="button" class="gal__btn" data-dir="-1" aria-label="prev"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="gal__btn" data-dir="1" aria-label="next"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button></div>
+    </header>
+  </div>
+  <div class="gal" id="gal">{{m.galleryHtml}}</div>
+</section>
+
+{{> lead}}
+
+<!-- ============ OTHER MODELS ============ -->
+<section class="sec models models--others">
+  <div class="wrap">
+    <header class="sec__head"><h2 class="h2 reveal">{{t.model.othersTitle}}</h2></header>
+    <div class="mgrid" style="--n:{{othersCols}}">
+      {{#each others}}{{> mcard}}{{/each}}
+    </div>
+  </div>
+</section>
+
+{{> contacts}}
+</main>
+{{> footer}}

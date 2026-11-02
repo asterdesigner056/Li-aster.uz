@@ -1,0 +1,273 @@
+{
+  "id": "l8-ultra",
+  "slug": "li-l8-ultra",
+  "name": "Li L8 Ultra",
+  "class": {
+    "ru": "5 мест · новое поколение",
+    "uz": "5 o‘rin · yangi avlod"
+  },
+  "tagline": {
+    "ru": "Пятиместный SUV с креслами «невесомость», 430 км на электричестве и 571 л.с.",
+    "uz": "«Vaznsizlik» o‘rindiqli besh o‘rinli SUV, elektrda 430 km va 571 o.k."
+  },
+  "intro": {
+    "ru": "Новый Li L8 стал пятиместным — весь простор отдан четырём креслам Zero Gravity и огромному багажнику на 820 литров. Батарея 72,7 кВт·ч с зарядкой 5C даёт 430 км на электричестве, а с генератором — 1 670 км без остановок. Версия Ultra — с пневмоподвеской, подруливающими задними колёсами и радиусом разворота всего 5,1 м.",
+    "uz": "Yangi Li L8 besh o‘rinli bo‘ldi — butun kenglik to‘rtta Zero Gravity o‘rindig‘i va 820 litrli ulkan yukxonaga berilgan. 5C zaryadli 72,7 kVt·soatlik batareya elektrda 430 km beradi, generator bilan esa — to‘xtovsiz 1 670 km. Ultra versiyasi — pnevmoosma, buriladigan orqa g‘ildiraklar va atigi 5,1 m burilish radiusi bilan."
+  },
+  "seo": {
+    "title": {
+      "ru": "Li L8 Ultra в Самарканде — новый L8 2026, цена и характеристики | Aster Li",
+      "uz": "Li L8 Ultra Samarqandda — yangi L8 2026, narxi va xususiyatlari | Aster Li"
+    },
+    "description": {
+      "ru": "Новый Li L8 Ultra у официального дилера в Самарканде: 5 мест с креслами Zero Gravity, 571 л.с., 0–100 км/ч за 4,8 с, 430 км на электричестве и 1 670 км общего запаса. Цена — в Aster Li.",
+      "uz": "Yangi Li L8 Ultra Samarqanddagi rasmiy dilerda: Zero Gravity o‘rindiqli 5 o‘rin, 571 o.k., 0–100 km/soat 4,8 soniyada, elektrda 430 km va 1 670 km umumiy zaxira. Narxi — Aster Li’da."
+    }
+  },
+  "badge": {
+    "ru": "Новинка",
+    "uz": "Yangi"
+  },
+  "card": "assets/img/models/l8-ultra/card.png",
+  "hero": "assets/img/models/l8-ultra/hero.webp",
+  "priceList": { "ru": "price/li-l8-ru.pdf", "uz": "price/li-l8-uz.pdf" },
+  "key": [
+    {
+      "v": "1 670",
+      "l": {
+        "ru": "км общий запас*",
+        "uz": "km umumiy zaxira*"
+      }
+    },
+    {
+      "v": "430",
+      "l": {
+        "ru": "км на электричестве*",
+        "uz": "km elektrda*"
+      }
+    },
+    {
+      "v": "4,8 с",
+      "l": {
+        "ru": "0–100 км/ч",
+        "uz": "0–100 km/soat"
+      }
+    },
+    {
+      "v": "571",
+      "l": {
+        "ru": "л.с., полный привод",
+        "uz": "o.k., to‘liq yuritma"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "img": "assets/img/models/l8-ultra/section-1.webp",
+      "eyebrow": {
+        "ru": "Новое поколение",
+        "uz": "Yangi avlod"
+      },
+      "title": {
+        "ru": "Пять мест — и никаких компромиссов",
+        "uz": "Besh o‘rin — hech qanday murosasiz"
+      },
+      "text": {
+        "ru": "Длина 5,1 м и колёсная база 3 045 мм отданы пятерым. Пассажирам — простор флагмана, вещам — багажник на 820 л глубиной больше метра и два подпольных отсека.",
+        "uz": "5,1 m uzunlik va 3 045 mm g‘ildirak bazasi beshta kishiga berilgan. Yo‘lovchilarga — flagman kengligi, yuklarga — chuqurligi bir metrdan ortiq 820 litrli yukxona va ikkita pol osti bo‘limi."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-ultra/section-2.webp",
+      "eyebrow": {
+        "ru": "Комфорт",
+        "uz": "Qulaylik"
+      },
+      "title": {
+        "ru": "Четыре кресла Zero Gravity",
+        "uz": "To‘rtta Zero Gravity o‘rindig‘i"
+      },
+      "text": {
+        "ru": "Спинки задних кресел откидываются до 55 градусов, подставки для ног поднимаются — в дороге можно по-настоящему отдохнуть, как в бизнес-классе самолёта.",
+        "uz": "Orqa o‘rindiqlar suyanchig‘i 55 darajagacha yotadi, oyoq tayanchlari ko‘tariladi — yo‘lda samolyotning biznes-klassidagidek chinakam dam olish mumkin."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-ultra/section-3.webp",
+      "eyebrow": {
+        "ru": "Энергия",
+        "uz": "Energiya"
+      },
+      "title": {
+        "ru": "430 км без капли бензина",
+        "uz": "Bir tomchi benzinsiz 430 km"
+      },
+      "text": {
+        "ru": "Батарея 72,7 кВт·ч с зарядкой 5C закрывает неделю городских поездок. В дальней дороге генератор 1.5T нового поколения доводит общий запас до 1 670 км.",
+        "uz": "5C zaryadli 72,7 kVt·soatlik batareya bir haftalik shahar qatnovini qoplaydi. Uzoq yo‘lda yangi avlod 1.5T generatori umumiy zaxirani 1 670 km gacha yetkazadi."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-ultra/section-4.webp",
+      "eyebrow": {
+        "ru": "Шасси",
+        "uz": "Shassi"
+      },
+      "title": {
+        "ru": "Разворот на пятачке 5,1 м",
+        "uz": "5,1 m maydonchada burilish"
+      },
+      "text": {
+        "ru": "Пневмоподвеска с двумя камерами, электронное рулевое управление и подруливающие задние колёса: большой SUV в городе ведёт себя как компактный кроссовер.",
+        "uz": "Ikki kamerali pnevmoosma, elektron rul boshqaruvi va buriladigan orqa g‘ildiraklar: katta SUV shaharda ixcham krossover kabi o‘zini tutadi."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-ultra/section-5.webp",
+      "eyebrow": {
+        "ru": "Технологии",
+        "uz": "Texnologiyalar"
+      },
+      "title": {
+        "ru": "Экран 29″ 6K и собственный процессор",
+        "uz": "29″ 6K ekran va xususiy protsessor"
+      },
+      "text": {
+        "ru": "Панорамный дисплей во всю панель, экран 21″ для задних пассажиров и 27 динамиков. Ассистентами водителя управляет процессор Li Mach M100 мощностью 1 280 TOPS с лидаром.",
+        "uz": "Butun panel bo‘ylab panorama displey, orqa yo‘lovchilar uchun 21″ ekran va 27 ta dinamik. Haydovchi yordamchilarini lidarli 1 280 TOPS quvvatli Li Mach M100 protsessori boshqaradi."
+      }
+    }
+  ],
+  "specs": [
+    {
+      "group": "dims",
+      "rows": [
+        [
+          "length",
+          "5 135 мм"
+        ],
+        [
+          "width",
+          "2 000 мм"
+        ],
+        [
+          "height",
+          "1 800 мм"
+        ],
+        [
+          "wheelbase",
+          "3 045 мм"
+        ],
+        [
+          "seats",
+          "5"
+        ],
+        [
+          "trunk",
+          "820 л"
+        ],
+        [
+          "turning",
+          "5,1 м"
+        ]
+      ]
+    },
+    {
+      "group": "power",
+      "rows": [
+        [
+          "drive",
+          {
+            "ru": "Полный, 2 электромотора",
+            "uz": "To‘liq, 2 elektromotor"
+          }
+        ],
+        [
+          "power",
+          "420 кВт / 571 л.с."
+        ],
+        [
+          "accel",
+          "4,8 с"
+        ],
+        [
+          "battery",
+          "72,7 кВт·ч, 5C"
+        ],
+        [
+          "evRange",
+          "430 км (CLTC)"
+        ],
+        [
+          "range",
+          "1 670 км (CLTC)"
+        ],
+        [
+          "fuel",
+          "6,2 л/100 км"
+        ]
+      ]
+    },
+    {
+      "group": "chassis",
+      "rows": [
+        [
+          "suspension",
+          {
+            "ru": "Пневмо, 2 камеры, адаптивные амортизаторы",
+            "uz": "Pnevmo, 2 kamera, adaptiv amortizatorlar"
+          }
+        ],
+        [
+          "steering",
+          {
+            "ru": "Электронное, подруливающие задние колёса",
+            "uz": "Elektron, buriladigan orqa g‘ildiraklar"
+          }
+        ]
+      ]
+    },
+    {
+      "group": "cabin",
+      "rows": [
+        [
+          "screens",
+          {
+            "ru": "29″ 6K панорама + 21″ 4K сзади",
+            "uz": "29″ 6K panorama + orqada 21″ 4K"
+          }
+        ],
+        [
+          "audio",
+          {
+            "ru": "27 динамиков",
+            "uz": "27 dinamik"
+          }
+        ],
+        [
+          "massage",
+          {
+            "ru": "4 кресла Zero Gravity",
+            "uz": "4 ta Zero Gravity o‘rindig‘i"
+          }
+        ],
+        [
+          "chip",
+          "Mach M100, 1 280 TOPS"
+        ]
+      ]
+    },
+    {
+      "group": "safety",
+      "rows": [
+        [
+          "adas",
+          {
+            "ru": "LiDAR ATL-P, 7 камер 8 Мп",
+            "uz": "LiDAR ATL-P, 7 ta 8 Mp kamera"
+          }
+        ]
+      ]
+    }
+  ]
+}

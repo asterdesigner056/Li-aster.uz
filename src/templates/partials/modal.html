@@ -1,0 +1,23 @@
+<div class="modal" id="bookModal" role="dialog" aria-modal="true" aria-labelledby="bookTitle" hidden>
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box">
+    <button type="button" class="modal__x" data-close aria-label="close">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <p class="eyebrow eyebrow--light">{{t.book.eyebrow}}</p>
+    <h3 class="modal__title" id="bookTitle"><span data-book-title>{{t.book.title}}</span></h3>
+    <p class="modal__sub">{{t.book.sub}}</p>
+    <form class="form form--modal js-form" id="bookForm" novalidate>
+{{> fields}}
+      <input type="hidden" name="model" value="">
+      <input type="hidden" name="type" value="booking">
+{{> hidden}}
+      <button class="btn btn--light btn--block" type="submit">{{t.book.submit}}</button>
+      <p class="form__secure"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>{{t.form.secure}}</p>
+      <div class="form__ok" hidden>
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6"/></svg>
+        <h3>{{t.book.okTitle}}</h3><p>{{t.form.okText}}</p>
+      </div>
+    </form>
+  </div>
+</div>

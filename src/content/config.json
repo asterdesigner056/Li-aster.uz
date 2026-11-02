@@ -1,0 +1,81 @@
+{
+  "_comment": "ГЛАВНЫЙ ФАЙЛ НАСТРОЕК. После правок: node build.js (или держите запущенным node build.js --watch). Модели — в src/models/*.json",
+  "siteUrl": "https://li-aster.uz",
+  "defaultLang": "ru",
+  "brand": "Li Auto",
+  "dealerShort": "Aster Li",
+  "dealer": {
+    "ru": "Aster Li — официальный дилер Li Auto в Самарканде",
+    "uz": "Aster Li — Samarqanddagi Li Auto rasmiy dileri"
+  },
+  "legalName": {
+    "ru": "ООО «ASTER» (TODO: точное юридическое название)",
+    "uz": "«ASTER» MChJ (TODO: aniq yuridik nomi)"
+  },
+  "phone": "+998 55 516-77-73",
+  "phoneRaw": "+998555167773",
+  "social": {
+    "_comment": "Соцсети: иконки появляются в шапке (меню), контактах и подвале. Пустая ссылка — иконка скрыта.",
+    "instagram": "https://www.instagram.com/liauto_aster_samarqand/",
+    "telegram": "https://t.me/li_aster_samarqand",
+    "youtube": ""
+  },
+  "email": "",
+  "lead": {
+    "_comment": "mode: \"php\" — заявки отправляет send.php на сервере (адрес CRM скрыт от посетителей, работают лимиты и защита от спама); \"direct\" — сайт без PHP, браузер шлёт заявку прямо в CRM (нужен CORS на стороне Oktell, адрес CRM виден всем).",
+    "mode": "php",
+    "endpoint": "https://oktell.aster.uz:8443/aster/website-lead",
+    "marka": "li auto",
+    "website": "li-aster.uz",
+    "city": "samarqand"
+  },
+  "ogImage": "assets/img/home/og.jpg",
+  "images": {
+    "hero": "assets/img/home/hero.webp",
+    "interior": "assets/img/home/interior.webp",
+    "offer": "assets/img/home/offer.webp"
+  },
+  "analytics": {
+    "ga4": "",
+    "yandexMetrika": "",
+    "metaPixel": "",
+    "googleVerification": "",
+    "yandexVerification": ""
+  },
+  "modelOrder": [
+    "l6-ultra",
+    "l8-ultra",
+    "l8-livis",
+    "l9-ultra",
+    "l9-livis"
+  ],
+  "dealers": [
+    {
+      "id": "samarkand",
+      "name": {
+        "ru": "Aster Li Самарканд",
+        "uz": "Aster Li Samarqand"
+      },
+      "city": {
+        "ru": "Самарканд",
+        "uz": "Samarqand"
+      },
+      "address": {
+        "ru": "г. Самарканд, массив Чупон-ота",
+        "uz": "Samarqand sh., Cho‘pon ota dahasi"
+      },
+      "hours": {
+        "ru": "Ежедневно до 20:00",
+        "uz": "Har kuni 20:00 gacha"
+      },
+      "openingHours": "Mo-Su 09:00-20:00",
+      "phone": "+998 55 516-77-73",
+      "googleMaps": "https://maps.app.goo.gl/jzoN94eLbNJfVL5VA",
+      "yandexMaps": "https://yandex.uz/maps/-/CXVGb29D",
+      "yandexOrgId": "100364077867",
+      "_coords": "Примерные координаты — уточните (правый клик на точке в Яндекс.Картах). Нужны для «ближайшего салона» и Schema.org",
+      "lat": 39.6905,
+      "lon": 66.9135
+    }
+  ]
+}

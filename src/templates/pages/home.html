@@ -1,0 +1,119 @@
+{{> head}}
+{{> header}}
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__media">
+    <img src="{{heroImg}}" alt="Li Auto — {{cfg.dealerShort}}" fetchpriority="high" decoding="async" data-hide-broken>
+  </div>
+  <div class="hero__shade"></div>
+  <div class="wrap hero__in">
+    <h1 class="hero__title reveal">{{t.hero.title}}</h1>
+    <div class="hero__cta reveal">
+      <a href="#models" class="btn btn--light" data-ev="cta_hero_models">{{t.hero.cta1}}</a>
+      <a href="#lead" class="btn btn--ghost" data-type="price" data-ev="cta_hero_price">{{t.hero.cta2}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MODELS ============ -->
+<section class="sec models" id="models">
+  <div class="wrap">
+    <header class="sec__head sec__head--row">
+      <div>
+        <p class="eyebrow reveal">{{t.models.eyebrow}}</p>
+        <h2 class="h2 reveal">{{t.models.title}}</h2>
+      </div>
+      <p class="lead reveal">{{t.models.sub}}</p>
+    </header>
+    <div class="mgrid" style="--n:{{gridCols}}">
+      {{#each models}}{{> mcard}}{{/each}}
+    </div>
+    <p class="note">{{t.models.note}}</p>
+  </div>
+</section>
+
+<!-- ============ TECH ============ -->
+<section class="sec tech dark" id="tech">
+  <div class="wrap">
+    <header class="sec__head sec__head--row">
+      <div>
+        <p class="eyebrow eyebrow--light reveal">{{t.tech.eyebrow}}</p>
+        <h2 class="h2 reveal">{{t.tech.title}}</h2>
+      </div>
+      <p class="lead reveal">{{t.tech.sub}}</p>
+    </header>
+    <div class="flow reveal" aria-hidden="true">
+      <span>⛽ 1.5T</span><i></i><span>Generator</span><i></i><span>Battery</span><i></i><span>2× E-motor · AWD</span>
+    </div>
+    <div class="grid3">
+      <div class="card card--dark reveal"><span class="card__n">01</span><h3>{{t.tech.p1t}}</h3><p>{{t.tech.p1d}}</p></div>
+      <div class="card card--dark reveal"><span class="card__n">02</span><h3>{{t.tech.p2t}}</h3><p>{{t.tech.p2d}}</p></div>
+      <div class="card card--dark reveal"><span class="card__n">03</span><h3>{{t.tech.p3t}}</h3><p>{{t.tech.p3d}}</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMFORT ============ -->
+<section class="sec comfort" id="comfort">
+  <div class="wrap comfort__in">
+    <div class="comfort__media reveal">
+      <img src="{{interiorImg}}" alt="Li Auto — interior" loading="lazy" decoding="async" data-hide-broken>
+    </div>
+    <div>
+      <p class="eyebrow reveal">{{t.comfort.eyebrow}}</p>
+      <h2 class="h2 reveal">{{t.comfort.title}}</h2>
+      <div class="ilist">
+        <div class="reveal"><h3>{{t.comfort.c1t}}</h3><p>{{t.comfort.c1d}}</p></div>
+        <div class="reveal"><h3>{{t.comfort.c2t}}</h3><p>{{t.comfort.c2d}}</p></div>
+        <div class="reveal"><h3>{{t.comfort.c3t}}</h3><p>{{t.comfort.c3d}}</p></div>
+        <div class="reveal"><h3>{{t.comfort.c4t}}</h3><p>{{t.comfort.c4d}}</p></div>
+        <div class="reveal"><h3>{{t.comfort.c5t}}</h3><p>{{t.comfort.c5d}}</p></div>
+        <div class="reveal"><h3>{{t.comfort.c6t}}</h3><p>{{t.comfort.c6d}}</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFER ============ -->
+<section class="offer">
+  <div class="offer__media"><img src="{{offerImg}}" alt="" loading="lazy" decoding="async" data-hide-broken></div>
+  <div class="wrap offer__in">
+    <p class="eyebrow eyebrow--light reveal">{{t.offer.eyebrow}}</p>
+    <h2 class="h2 reveal">{{t.offer.title}}</h2>
+    <p class="lead reveal">{{t.offer.sub}}</p>
+    <a href="#lead" class="btn btn--light reveal" data-type="price" data-ev="cta_offer">{{t.offer.cta}}</a>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="sec why">
+  <div class="wrap">
+    <header class="sec__head">
+      <p class="eyebrow reveal">{{t.why.eyebrow}}</p>
+      <h2 class="h2 reveal">{{t.why.title}}</h2>
+    </header>
+    <div class="grid4">
+      <div class="card reveal"><span class="card__n">01</span><h3>{{t.why.w1t}}</h3><p>{{t.why.w1d}}</p></div>
+      <div class="card reveal"><span class="card__n">02</span><h3>{{t.why.w2t}}</h3><p>{{t.why.w2d}}</p></div>
+      <div class="card reveal"><span class="card__n">03</span><h3>{{t.why.w3t}}</h3><p>{{t.why.w3d}}</p></div>
+      <div class="card reveal"><span class="card__n">04</span><h3>{{t.why.w4t}}</h3><p>{{t.why.w4d}}</p></div>
+    </div>
+  </div>
+</section>
+
+{{> lead}}
+{{> contacts}}
+
+<!-- ============ FAQ ============ -->
+<section class="sec faq" id="faq">
+  <div class="wrap faq__in">
+    <header>
+      <p class="eyebrow reveal">{{t.faq.eyebrow}}</p>
+      <h2 class="h2 reveal">{{t.faq.title}}</h2>
+    </header>
+    <div class="acc">{{faqHtml}}</div>
+  </div>
+</section>
+</main>
+{{> footer}}

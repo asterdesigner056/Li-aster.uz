@@ -1,0 +1,276 @@
+{
+  "id": "l8-livis",
+  "slug": "li-l8-livis",
+  "name": "Li L8 Livis",
+  "class": {
+    "ru": "5 мест · топовая версия",
+    "uz": "5 o‘rin · eng yuqori versiya"
+  },
+  "tagline": {
+    "ru": "Пятиместный L8 с активной подвеской 800 В, двумя процессорами и четырьмя лидарами.",
+    "uz": "800 V faol osma, ikkita protsessor va to‘rtta lidarli besh o‘rinli L8."
+  },
+  "intro": {
+    "ru": "L8 Livis — максимальная версия нового L8. К пяти просторным местам, креслам Zero Gravity и запасу хода 1 670 км добавляется активная подвеска 800 В, которая держит кузов ровно на любой дороге, и электромеханические тормоза с откликом быстрее 0,1 секунды. За ассистентов отвечают два процессора Mach M100 и четыре лидара.",
+    "uz": "L8 Livis — yangi L8 ning maksimal versiyasi. Beshta keng o‘rin, Zero Gravity o‘rindiqlari va 1 670 km yurish zaxirasiga har qanday yo‘lda kuzovni tekis ushlab turadigan 800 V faol osma hamda 0,1 soniyadan tezroq javob beradigan elektromexanik tormozlar qo‘shiladi. Yordamchilar uchun ikkita Mach M100 protsessori va to‘rtta lidar javob beradi."
+  },
+  "seo": {
+    "title": {
+      "ru": "Li L8 Livis в Самарканде — активная подвеска, 571 л.с., цена | Aster Li",
+      "uz": "Li L8 Livis Samarqandda — faol osma, 571 o.k., narxi | Aster Li"
+    },
+    "description": {
+      "ru": "Li L8 Livis у официального дилера в Самарканде: 5 мест, активная подвеска 800 В, 571 л.с., 0–100 км/ч за 4,8 с, 430 км на электричестве, 2 560 TOPS и 4 лидара. Узнайте цену в Aster Li.",
+      "uz": "Li L8 Livis Samarqanddagi rasmiy dilerda: 5 o‘rin, 800 V faol osma, 571 o.k., 0–100 km/soat 4,8 soniyada, elektrda 430 km, 2 560 TOPS va 4 lidar. Narxini Aster Li’da bilib oling."
+    }
+  },
+  "badge": {
+    "ru": "Новинка",
+    "uz": "Yangi"
+  },
+  "card": "assets/img/models/l8-livis/card.png",
+  "hero": "assets/img/models/l8-livis/hero.webp",
+  "priceList": { "ru": "price/li-l8-ru.pdf", "uz": "price/li-l8-uz.pdf" },
+  "key": [
+    {
+      "v": "571",
+      "l": {
+        "ru": "л.с., полный привод",
+        "uz": "o.k., to‘liq yuritma"
+      }
+    },
+    {
+      "v": "4,8 с",
+      "l": {
+        "ru": "0–100 км/ч",
+        "uz": "0–100 km/soat"
+      }
+    },
+    {
+      "v": "430",
+      "l": {
+        "ru": "км на электричестве*",
+        "uz": "km elektrda*"
+      }
+    },
+    {
+      "v": "800 В",
+      "l": {
+        "ru": "активная подвеска",
+        "uz": "faol osma"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "img": "assets/img/models/l8-livis/section-1.webp",
+      "eyebrow": {
+        "ru": "Шасси",
+        "uz": "Shassi"
+      },
+      "title": {
+        "ru": "Активная подвеска 800 В",
+        "uz": "800 V faol osma"
+      },
+      "text": {
+        "ru": "Каждое колесо управляется отдельно: подвеска заранее компенсирует крены в поворотах и раскачку на неровностях. Кузов остаётся ровным, пассажиры — спокойными.",
+        "uz": "Har bir g‘ildirak alohida boshqariladi: osma burilishlardagi og‘ishni va notekisliklardagi tebranishni oldindan kompensatsiya qiladi. Kuzov tekis qoladi, yo‘lovchilar — xotirjam."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-livis/section-2.webp",
+      "eyebrow": {
+        "ru": "Тормоза",
+        "uz": "Tormozlar"
+      },
+      "title": {
+        "ru": "Электромеханические тормоза",
+        "uz": "Elektromexanik tormozlar"
+      },
+      "text": {
+        "ru": "Система EMB без гидравлики реагирует быстрее 0,1 секунды — торможение точнее и короче, особенно в экстренной ситуации.",
+        "uz": "Gidravlikasiz EMB tizimi 0,1 soniyadan tezroq javob beradi — tormozlash, ayniqsa favqulodda vaziyatda, aniqroq va qisqaroq."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-livis/section-3.webp",
+      "eyebrow": {
+        "ru": "Комфорт",
+        "uz": "Qulaylik"
+      },
+      "title": {
+        "ru": "Четыре кресла Zero Gravity",
+        "uz": "To‘rtta Zero Gravity o‘rindig‘i"
+      },
+      "text": {
+        "ru": "Задние спинки откидываются до 55 градусов, подставки для ног поднимаются. Пятиместный салон и багажник на 820 л — для семьи, которая много путешествует.",
+        "uz": "Orqa suyanchiqlar 55 darajagacha yotadi, oyoq tayanchlari ko‘tariladi. Besh o‘rinli salon va 820 litrli yukxona — ko‘p sayohat qiladigan oila uchun."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-livis/section-4.webp",
+      "eyebrow": {
+        "ru": "Энергия",
+        "uz": "Energiya"
+      },
+      "title": {
+        "ru": "1 670 км на одной заправке и зарядке",
+        "uz": "Bitta yoqilg‘i va zaryadda 1 670 km"
+      },
+      "text": {
+        "ru": "430 км на электричестве (CLTC) и быстрая зарядка 5C. Самарканд — Ташкент и обратно без единой остановки на заправку.",
+        "uz": "Elektrda 430 km (CLTC) va 5C tezkor zaryadlash. Samarqand — Toshkent va orqaga yoqilg‘i uchun bir marta ham to‘xtamasdan."
+      }
+    },
+    {
+      "img": "assets/img/models/l8-livis/section-5.webp",
+      "eyebrow": {
+        "ru": "Интеллект",
+        "uz": "Intellekt"
+      },
+      "title": {
+        "ru": "2 560 TOPS и четыре лидара",
+        "uz": "2 560 TOPS va to‘rtta lidar"
+      },
+      "text": {
+        "ru": "Два собственных процессора Mach M100, передний лидар и три твердотельных лидара с переменным фокусом видят дорогу вокруг автомобиля днём и ночью.",
+        "uz": "Ikkita xususiy Mach M100 protsessori, old lidar va o‘zgaruvchan fokusli uchta qattiq jismli lidar avtomobil atrofidagi yo‘lni kechayu kunduz ko‘radi."
+      }
+    }
+  ],
+  "specs": [
+    {
+      "group": "dims",
+      "rows": [
+        [
+          "length",
+          "5 135 мм"
+        ],
+        [
+          "width",
+          "2 000 мм"
+        ],
+        [
+          "height",
+          "1 800 мм"
+        ],
+        [
+          "wheelbase",
+          "3 045 мм"
+        ],
+        [
+          "seats",
+          "5"
+        ],
+        [
+          "trunk",
+          "820 л"
+        ]
+      ]
+    },
+    {
+      "group": "power",
+      "rows": [
+        [
+          "drive",
+          {
+            "ru": "Полный, 2 электромотора",
+            "uz": "To‘liq, 2 elektromotor"
+          }
+        ],
+        [
+          "power",
+          "420 кВт / 571 л.с."
+        ],
+        [
+          "accel",
+          "4,8 с"
+        ],
+        [
+          "battery",
+          "72,7 кВт·ч, 5C"
+        ],
+        [
+          "evRange",
+          "430 км (CLTC)"
+        ],
+        [
+          "range",
+          "1 670 км (CLTC)"
+        ],
+        [
+          "fuel",
+          "6,2 л/100 км"
+        ]
+      ]
+    },
+    {
+      "group": "chassis",
+      "rows": [
+        [
+          "suspension",
+          {
+            "ru": "Активная, 800 В",
+            "uz": "Faol, 800 V"
+          }
+        ],
+        [
+          "brakes",
+          {
+            "ru": "Электромеханические (EMB)",
+            "uz": "Elektromexanik (EMB)"
+          }
+        ],
+        [
+          "steering",
+          {
+            "ru": "Электронное, подруливающие задние колёса",
+            "uz": "Elektron, buriladigan orqa g‘ildiraklar"
+          }
+        ]
+      ]
+    },
+    {
+      "group": "cabin",
+      "rows": [
+        [
+          "screens",
+          {
+            "ru": "29″ 6K панорама + 21″ 4K сзади",
+            "uz": "29″ 6K panorama + orqada 21″ 4K"
+          }
+        ],
+        [
+          "audio",
+          {
+            "ru": "27 динамиков",
+            "uz": "27 dinamik"
+          }
+        ],
+        [
+          "massage",
+          {
+            "ru": "4 кресла Zero Gravity",
+            "uz": "4 ta Zero Gravity o‘rindig‘i"
+          }
+        ],
+        [
+          "chip",
+          "2 × Mach M100, 2 560 TOPS"
+        ]
+      ]
+    },
+    {
+      "group": "safety",
+      "rows": [
+        [
+          "adas",
+          {
+            "ru": "4 лидара, 7 камер 8 Мп",
+            "uz": "4 lidar, 7 ta 8 Mp kamera"
+          }
+        ]
+      ]
+    }
+  ]
+}
