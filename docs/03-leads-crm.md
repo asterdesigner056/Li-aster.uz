@@ -56,6 +56,18 @@ send.php ── проверки ──► CRM Oktell (JSON)   ← основн�
 
 Успех — HTTP 2xx от Oktell. Ответ CRM пишется в `crm.log`.
 
+### Проверить CRM вручную
+
+Тестовая заявка напрямую в Oktell (тот же формат, что отправляет `send.php`):
+
+```bash
+curl -X POST "https://oktell.aster.uz:8443/aster/website-lead" \
+  -H "Content-Type: application/json; charset=utf-8" \
+  -d '{"fio":"Тест сайта","phone":"+998 (97) 521 32 32","comment":"Заявка с сайта","marka":"li auto","model":"L9 Livis","website":"li-aster.uz","city":"samarqand","language":"RU","utm_source":"test","utm_medium":"","utm_campaign":"","utm_content":"","utm_term":""}'
+```
+
+Ответ 2xx — заявка принята. Код формирования запроса — `src/php/send.php`, блок «4. CRM Oktell».
+
 ## Режимы (`config.json → lead.mode`)
 
 | Режим | Как работает | Когда |
