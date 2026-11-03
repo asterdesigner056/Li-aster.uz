@@ -99,6 +99,7 @@
     "okTitle": "Rahmat! Ariza qabul qilindi",
     "okText": "Menejer tez orada siz bilan bog‘lanadi.",
     "err": "Yuborib bo‘lmadi. Bizga qo‘ng‘iroq qiling yoki qayta urinib ko‘ring.",
+    "errLocal": "Forma arizalarni faqat saytda yuboradi. Sahifa kompyuterdan ochilgan — npm run dev ni ishga tushiring yoki xostingda tekshiring.",
     "errPhone": "Raqamni to‘liq kiriting: +998 dan keyin 9 raqam",
     "errName": "Faqat harflar, kamida 2 ta",
     "secure": "Ma’lumotlaringiz himoyalangan va uchinchi shaxslarga berilmaydi",

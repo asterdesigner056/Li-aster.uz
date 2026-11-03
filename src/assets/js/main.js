@@ -140,6 +140,18 @@
     if (!res.ok || !data || !data.ok) throw new Error((data && data.error) || res.status);
   };
 
+  // ошибка отправки — сообщение под кнопкой вместо системного окна браузера
+  const showErr = (form, err) => {
+    let box = form.querySelector('.form__err');
+    if (!box) { box = document.createElement('p'); box.className = 'form__err'; box.setAttribute('role', 'alert'); form.querySelector('[type=submit]').after(box); }
+    const local = location.protocol === 'file:';
+    box.textContent = local ? T.errLocal : T.err;
+    box.hidden = false;
+    console.error('[форма] заявка не отправлена:', err && err.message || err,
+      local ? '— страница открыта с диска: send.php работает только на хостинге с PHP или в npm run dev'
+            : '— проверьте, что send.php выполняется сервером (нужен PHP) и CRM отвечает (см. crm.log)');
+  };
+
   $$('.js-form').forEach((form) => {
     const F = (n) => form.elements[n];
     const name = F('name'), phone = F('phone');
@@ -177,6 +189,7 @@
       F('el').value = String(Math.round(performance.now() - shownAt));   // сколько мс заполняли форму (боты — мгновенно)
       const btn = form.querySelector('[type=submit]'); const label = btn.textContent;
       btn.disabled = true; btn.textContent = T.sending;
+      const errBox = form.querySelector('.form__err'); if (errBox) errBox.hidden = true;
       try {
         await sendLead(form);
         form.querySelector('.form__ok').hidden = false;
@@ -184,8 +197,7 @@
         const model = F('model').value;
         form.reset(); fill(); F('model').value = model;
       } catch (err) {
-        alert(T.err);
-        console.error(err);
+        showErr(form, err);
       } finally {
         btn.disabled = false; btn.textContent = label;
       }

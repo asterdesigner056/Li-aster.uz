@@ -190,6 +190,8 @@ svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke
 .form__secure svg{width:15px;height:15px}
 .form__ok{position:absolute;inset:0;border-radius:var(--r);background:var(--ink-2);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px;gap:12px;animation:fadeUp .6s var(--ease)}
 .form__ok[hidden]{display:none}
+.form__err{margin:10px 0 0;padding:10px 14px;border-radius:var(--r-sm);background:rgba(220,80,70,.12);border:1px solid rgba(220,80,70,.35);color:#f2b8b2;font-size:13.5px;line-height:1.45}
+.form__err[hidden]{display:none}
 .form__ok svg{width:60px;height:60px;color:var(--accent);stroke-width:1.2}
 .form__ok h3{font-size:28px;font-weight:300}
 .form__ok p{color:var(--muted-d)}
