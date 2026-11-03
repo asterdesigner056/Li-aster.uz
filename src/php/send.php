@@ -155,7 +155,7 @@ if ($endpoint !== '' && (strpos($endpoint, 'https://') === 0 || !empty($cfg['all
         curl_setopt_array($ch, [
             CURLOPT_POST => true, CURLOPT_POSTFIELDS => $json, CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HTTPHEADER => ['Content-Type: application/json; charset=utf-8', 'Accept: application/json'],
-            CURLOPT_CONNECTTIMEOUT => 5, CURLOPT_TIMEOUT => 10, CURLOPT_FOLLOWLOCATION => false,
+            CURLOPT_CONNECTTIMEOUT => 10, CURLOPT_TIMEOUT => 25, CURLOPT_FOLLOWLOCATION => false,
             CURLOPT_SSL_VERIFYPEER => true, CURLOPT_SSL_VERIFYHOST => 2,
         ]);
         $resp = (string)curl_exec($ch);
@@ -163,7 +163,7 @@ if ($endpoint !== '' && (strpos($endpoint, 'https://') === 0 || !empty($cfg['all
         if ($code === 0) $resp = curl_error($ch);
         curl_close($ch);
     } else {
-        $ctx = stream_context_create(['http' => ['method' => 'POST', 'timeout' => 10, 'ignore_errors' => true, 'follow_location' => 0,
+        $ctx = stream_context_create(['http' => ['method' => 'POST', 'timeout' => 25, 'ignore_errors' => true, 'follow_location' => 0,
             'header' => "Content-Type: application/json; charset=utf-8\r\n", 'content' => $json]]);
         $resp = (string)@file_get_contents($endpoint, false, $ctx);
         $hdrs = function_exists('http_get_last_response_headers') ? (array)http_get_last_response_headers() : (array)($http_response_header ?? []);
