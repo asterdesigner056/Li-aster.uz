@@ -29,8 +29,8 @@ send.php ── проверки ──► CRM Oktell (JSON)   ← основн�
 ```json
 {
   "fio": "Shaxzod",
-  "phone": "+998 (97) 521 32 32",
-  "comment": "Бронирование",
+  "phone": " 998 (97) 521 32 32",
+  "comment": "",
   "marka": "li auto",
   "model": "L9 Livis",
   "website": "li-aster.uz",
@@ -47,8 +47,8 @@ send.php ── проверки ──► CRM Oktell (JSON)   ← основн�
 | Поле | Источник |
 |---|---|
 | `fio` | имя из формы |
-| `phone` | `+998 (XX) XXX XX XX` |
-| `comment` | `Бронирование` (окно) или `Заявка с сайта` (нижняя форма) |
+| `phone` | ` 998 (XX) XXX XX XX` — с пробелом в начале, точно как в образце Oktell |
+| `comment` | пусто, как в образце Oktell (тип заявки виден в CSV и Telegram) |
 | `marka`, `website`, `city` | `src/content/config.json → lead` |
 | `model` | название модели без «Li » (`L8 Livis`), пусто — если не выбрана |
 | `language` | `RU` / `UZ` — язык страницы |
@@ -63,7 +63,7 @@ send.php ── проверки ──► CRM Oktell (JSON)   ← основн�
 ```bash
 curl -X POST "https://oktell.aster.uz:8443/aster/website-lead" \
   -H "Content-Type: application/json; charset=utf-8" \
-  -d '{"fio":"Тест сайта","phone":"+998 (97) 521 32 32","comment":"Заявка с сайта","marka":"li auto","model":"L9 Livis","website":"li-aster.uz","city":"samarqand","language":"RU","utm_source":"test","utm_medium":"","utm_campaign":"","utm_content":"","utm_term":""}'
+  -d '{"fio":"Тест сайта","phone":" 998 (97) 521 32 32","comment":"","marka":"li auto","model":"L9 Livis","website":"li-aster.uz","city":"samarqand","language":"RU","utm_source":"test","utm_medium":"","utm_campaign":"","utm_content":"","utm_term":""}'
 ```
 
 Ответ 2xx — заявка принята. Код формирования запроса — `src/php/send.php`, блок «4. CRM Oktell».
@@ -120,6 +120,6 @@ curl -X POST "https://oktell.aster.uz:8443/aster/website-lead" \
 
 ## Открытые вопросы к Oktell
 
-- Формат телефона: в образце был ` 998 (97) 521 32 32` (с пробелом вместо «+») — отправляем `+998 (97) 521 32 32`.
+- Формат телефона: отправляем точно как в образце — ` 998 (97) 521 32 32` (пробел в начале).
 - Ожидаемые значения `city` (`samarqand`) и `marka` (`li auto`).
 - Доступность порта 8443 с IP хостинга; для режима `direct` — CORS для домена сайта.

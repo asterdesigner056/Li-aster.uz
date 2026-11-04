@@ -114,7 +114,7 @@
 
   /* отправка: send.php (CRM Oktell + Telegram + CSV). Если PHP недоступен
      (статический хостинг или файл открыт с диска) — напрямую в CRM. */
-  const phoneCRM = (v) => { const d = v.replace(/\D/g, '').slice(-9); return `+998 (${d.slice(0, 2)}) ${d.slice(2, 5)} ${d.slice(5, 7)} ${d.slice(7, 9)}`; };
+  const phoneCRM = (v) => { const d = v.replace(/\D/g, '').slice(-9); return ` 998 (${d.slice(0, 2)}) ${d.slice(2, 5)} ${d.slice(5, 7)} ${d.slice(7, 9)}`; };
   const sendDirect = async (form) => {
     const L = S.lead || {}; const F = (n) => form.elements[n].value;
     if (!L.endpoint) throw new Error('no endpoint');
@@ -122,7 +122,7 @@
     const res = await fetch(L.endpoint, {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        fio: F('name').trim(), phone: phoneCRM(F('phone')), comment: F('type') === 'booking' ? 'Бронирование' : 'Заявка с сайта',
+        fio: F('name').trim(), phone: phoneCRM(F('phone')), comment: '',
         marka: L.marka || 'li auto', model: F('model').replace(/^Li\s+/i, ''), website: L.website || location.hostname,
         city: L.city || '', language: (S.lang || 'ru').toUpperCase(),
         utm_source: u.get('utm_source') || '', utm_medium: u.get('utm_medium') || '', utm_campaign: u.get('utm_campaign') || '',

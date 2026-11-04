@@ -136,8 +136,8 @@ $endpoint = (string)($lead['endpoint'] ?? '');
 if ($endpoint !== '' && (strpos($endpoint, 'https://') === 0 || !empty($cfg['allow_http_endpoint']))) {
     $json = json_encode([
         'fio'          => $name,
-        'phone'        => $phone,
-        'comment'      => $typeName,
+        'phone'        => ' ' . substr($phone, 1),   // как в образце Oktell: " 998 (97) 521 32 32"
+        'comment'      => '',
         'marka'        => (string)($lead['marka'] ?? 'li auto'),
         'model'        => trim((string)preg_replace('/^Li\s+/i', '', $model)),
         'website'      => (string)($lead['website'] ?? ''),
