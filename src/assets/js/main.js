@@ -80,7 +80,7 @@
   };
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-book]');
-    if (b) { e.preventDefault(); openModal(b.dataset.book); return; }
+    if (b) { e.preventDefault(); openModal(b.dataset.book || S.model || ''); return; }   // на странице модели — её модель
     if (e.target.closest('[data-close]')) closeModal();
   });
   addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeModal(); closeMenu(); } });

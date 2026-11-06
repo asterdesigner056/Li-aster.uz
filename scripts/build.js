@@ -161,6 +161,7 @@ function build() {
           lang, endpoint: base + 'send.php', ym: analytics.yandexMetrika || '', gtm: !!analytics.gtm, lead: leadMode === 'direct'
             ? { mode: 'direct', endpoint: cfg.lead.endpoint, marka: cfg.lead.marka, website: cfg.lead.website, city: cfg.lead.city }
             : { mode: 'php' },
+          model: current ? current.name : '',   // модель страницы — по умолчанию для «Забронировать» в шапке
           dealers: dealers.map((d) => ({ id: d.id, name: d.dname, lat: d.lat, lon: d.lon })),
           i18n: { ...t.form, bookTitle: t.book.title, bookTitleModel: t.book.titleModel },
         }).replace(/</g, '\\u003c'),
