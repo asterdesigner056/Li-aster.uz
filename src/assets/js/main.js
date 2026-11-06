@@ -118,6 +118,7 @@
   const sendDirect = async (form) => {
     const L = S.lead || {}; const F = (n) => form.elements[n].value;
     if (!L.endpoint) throw new Error('no endpoint');
+    if (F('website')) return;   // ловушка для ботов заполнена — тихо не отправляем
     const u = new URLSearchParams(F('utm'));
     const res = await fetch(L.endpoint, {
       method: 'POST', headers: { 'Content-Type': 'application/json' },

@@ -23,7 +23,7 @@
   "email": "",
   "lead": {
     "_comment": "mode: \"php\" — заявки отправляет send.php на сервере (адрес CRM скрыт от посетителей, работают лимиты и защита от спама); \"direct\" — сайт без PHP, браузер шлёт заявку прямо в CRM (нужен CORS на стороне Oktell, адрес CRM виден всем).",
-    "mode": "php",
+    "mode": "direct",
     "endpoint": "https://oktell.aster.uz:8443/aster/website-lead",
     "marka": "li auto",
     "website": "li-aster.uz",

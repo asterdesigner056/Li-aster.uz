@@ -68,6 +68,8 @@ curl -X POST "https://oktell.aster.uz:8443/aster/website-lead" \
 
 Ответ 2xx — заявка принята. Код формирования запроса — `src/php/send.php`, блок «4. CRM Oktell».
 
+> **Сейчас включён режим `"direct"`** (с 06.11.2026): заявки из браузера идут прямо в Oktell — так они стабильно доходили. `send.php` в этом режиме не используется. Вернуть серверную отправку — `"mode": "php"` в `src/content/config.json`.
+
 ## Режимы (`config.json → lead.mode`)
 
 | Режим | Как работает | Когда |
