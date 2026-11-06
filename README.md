@@ -76,7 +76,7 @@ liauto-site/
 - [ ] `config.json` → `dealers[0].lat/lon`: точные координаты салона (сейчас примерные).
 - [ ] `config.json` → `social.youtube`: ссылка на канал (иконка появится сама).
 - [ ] `config.json` → `analytics`: ID Яндекс.Метрики / GA4 / Meta Pixel и коды подтверждения Вебмастера / Search Console.
-- [ ] `src/price/`: прайс-лист L9 Ultra (`li-l9-ultra-ru.pdf`, `li-l9-ultra-uz.pdf`).
+
 - [ ] Фото L8 Ultra / L8 Livis — временные (800 px, с замазанным номером): заменить официальными из брендбука.
 - [ ] В галерее L9 Livis фото повторяют блоки страницы — добавить новые `gallery-N`.
 - [ ] Согласовать с Oktell формат телефона (`+998 (97) 521 32 32`) и значения `city` / `marka`.
